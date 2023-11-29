@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "435564247426",
+    "firebase_url": "https://pharmacy-manager-4aec3-default-rtdb.firebaseio.com",
+    "project_id": "pharmacy-manager-4aec3",
+    "storage_bucket": "pharmacy-manager-4aec3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435564247426:android:ca5dc557f53365b93b779b",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx1j9z87BHmSKmzWC0I1lU08hU9ViuZeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435564247426:android:1ba6c305ae3c66fa3b779b",
+        "android_client_info": {
+          "package_name": "com.example.pharmacure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx1j9z87BHmSKmzWC0I1lU08hU9ViuZeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435564247426:android:e33512046c1c992e3b779b",
+        "android_client_info": {
+          "package_name": "com.example.pharmacy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx1j9z87BHmSKmzWC0I1lU08hU9ViuZeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

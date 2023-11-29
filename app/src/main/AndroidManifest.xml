@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        tools:targetApi="31">
+        <activity
+            android:name=".Summary.Log_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Summary.Sample_Bill_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.New_Customer_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.Customer_Log_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.Update_Customer_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Transactions.TransactionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Transactions.Bill_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Inventory.Update_Item_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".updateItem_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_update_item"
+             />
+        <activity
+            android:name=".Inventory.NewItem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Registration.Updateinfo_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".Inventory.ItemsFragement"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Registration.RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".register_info"
+            android:exported="false" />
+        <activity
+            android:name=".HomePageFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Registration.Login_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Registration.Sign_up_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

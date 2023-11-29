@@ -1,0 +1,384 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusableInTouchMode="true"
+
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_ProductnameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/updateproduct_ProductnameText"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:hint="Product Name"
+
+                    android:inputType="textCapSentences"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_ProductIDLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/updateproduct_ProductIDText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:hint="Product ID"
+                    android:inputType="text"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_companyNameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/updateproduct_companyNameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:maxLines="1"
+
+                    android:inputType="textCapSentences"
+                    android:hint="Company Name" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_batchLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/updateproduct_batchText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:hint="Batch Number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_packagingLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/updateproduct_packagingText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:hint="Packaging"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_qtyLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/updateproduct_qtyText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:hint="Quantity"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_expLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/updateproduct_expText"
+                    android:layout_width="match_parent"
+
+                    android:maxLines="1"
+                    android:layout_height="wrap_content"
+                    android:hint="Expiry Date" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_hsnoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/updateproduct_hsnNoText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+
+                    android:hint="HSN No"
+
+                    android:inputType="textCapSentences"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_gstLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/updateproduct_gstNoText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+
+                    android:hint="GST No"
+
+                    android:inputType="textCapSentences"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_mrpLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/updateproduct_mrpText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:maxLines="1"
+                    android:inputType="numberDecimal"
+                    android:hint="MRP" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_rateLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/updateproduct_rateText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:hint="Rate"
+                    android:inputType="numberDecimal"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/updateproduct_hsamountLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/updateproduct_hsamountText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:maxLines="1"
+                    android:inputType="numberDecimal"
+                    android:hint="HS Amount" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:text="S+C%"
+                        android:textSize="19sp">
+                    </TextView>
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/updateproduct_cstax_perc_spinner"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown"
+                        android:autofillHints="%"
+                        android:layout_marginRight="10dp">
+
+                    </androidx.appcompat.widget.AppCompatSpinner>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/updateproduct_cstaxtext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            >
+
+                        </EditText>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:text="Discount%"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/updateproduct_discount_perc_spinner"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown"
+                        android:autofillHints="%"
+                        android:layout_marginRight="10dp">
+
+                    </androidx.appcompat.widget.AppCompatSpinner>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/updateproduct_discounttext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            >
+
+                        </EditText>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                </LinearLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/updateproduct_baseamountLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/updateproduct_baseamountText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:maxLines="1"
+                        android:inputType="numberDecimal"
+                        android:hint="Base Amount" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/updateproduct_discountamountLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/updateproduct_discountamountText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:maxLines="1"
+                        android:inputType="numberDecimal"
+                        android:hint="Discount Amount" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/updateproduct_sctaxamountLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/updateproduct_sctaxamountText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:maxLines="1"
+                        android:inputType="numberDecimal"
+                        android:hint="S+C Amount" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/updateproduct_totalamountLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/updateproduct_totalamountText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:maxLines="1"
+                        android:inputType="numberDecimal"
+                        android:hint="Total Amount" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+            <Button android:id="@+id/updateproduct_btn_clear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="CLEAR"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                android:textColor="@android:color/white"
+
+                android:layout_margin="5dp" />
+
+            <Button android:id="@+id/updateproduct_btn_update"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="UPDATE"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                android:textColor="@android:color/white"
+
+                android:layout_margin="5dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

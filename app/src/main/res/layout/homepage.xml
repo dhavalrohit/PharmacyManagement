@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/background_grey"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+
+                android:adjustViewBounds="true"
+                android:src="@mipmap/phar_logo"
+                android:layout_weight="2"
+                android:padding="15dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/homepagehometext"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/iconnewtrans"
+                android:layout_weight="1"
+                android:paddingTop="25dp"
+                android:paddingLeft="25dp"
+                android:id="@+id/btntrans_homeicon"
+                 android:onClick="homebtn"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+
+                android:adjustViewBounds="true"
+                android:src="@drawable/iconinventory"
+                android:layout_weight="1"
+                android:paddingRight="25dp"
+                android:paddingTop="25dp"
+                android:id="@+id/btninventory_homeicon"
+                android:onClick="homebtn"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/icontrans"
+
+                android:layout_weight="1"
+                android:paddingBottom="25dp"
+                android:paddingLeft="25dp"
+                android:id="@+id/btntranshistory_homeicon"
+                android:onClick="homebtn"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+
+                android:src="@drawable/iconcustomer"
+                android:layout_weight="1"
+                android:paddingRight="25dp"
+                android:paddingBottom="25dp"
+                android:id="@+id/btncust_homeicon"
+                android:onClick="homebtn"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

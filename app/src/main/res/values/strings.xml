@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">My Pharmacy</string>
+    <string name="action_settings">Settings</string>
+    <string name="app__app_name">My Pharmacy</string>
+    <string name="menu_home">Home</string>
+    <string name="orders">Orders</string>
+    <string name="account">Account</string>
+    <string name="login_email_or_telephone">Email</string>
+    <string name="login__email">Email</string>
+    <string name="login__password">password</string>
+    <string name="login__login">Login</string>
+    <string name="login__choice_text">OR</string>
+    <string name="image_default__image">Default Image</string>
+    <string name="login__forgot_your_password">FORGOT PASSWORD</string>
+    <string name="login__not_a_member_join_now">SIGN UP</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_account_using_google">Create account using Google</string>
+    <string name="verify_phone_number">Verify Phone Number</string>
+    <string name="_787292442">787292442</string>
+    <string name="cart">Cart</string>
+    <string name="order_with_prescription">Order with prescription</string>
+    <string name="view_all">view all</string>
+    <string name="price_ugx">Ugx</string>
+    <string name="item_product_price">85000</string>
+    <string name="sample_description">This is the product detail summary which describes a particular medicine</string>
+    <string name="profile__edit">Edit</string>
+    <string name="sign_out">Sign out</string>
+    <string name="quantity">Quantity</string>
+    <string name="exit">Exit</string>
+    <string name="order_now">Order now</string>
+    <string name="choose_payment_method">Choose payment method</string>
+    <string name="pay_using_mobile_money">Pay using mobile money</string>
+    <string name="pay_on_delivery">Pay on delivery</string>
+    <string name="location">Location</string>
+    <string name="total_amount">Total amount</string>
+    <string name="sale_price">sale cost</string>
+    <string name="delivery_cost">Delivery cost</string>
+    <string name="_10">10</string>
+    <string name="title_activity_category_switcher">CategorySwitcherActivity</string>
+
+
+    <string name="contact_form_name">Your Name</string>
+
+
+    <string name="contact_form_email">Your Email</string>
+
+
+    <string name="contact_form_subject">Subject</string>
+
+
+    <string name="contact_form_message">Message</string>
+
+
+    <string name="contact_form_button">Send Message</string>
+
+
+    <string name="call_to_order">Call To Order</string>
+    <string name="view_cart">View Cart</string>
+    <string name="_0">0</string>
+    <string name="order_date">2020–10–25T16:58:53.000Z</string>
+    <string name="order_status">PAID</string>
+    <string name="payment_method">MOBILE_MONEY</string>
+    <string name="_8lso392lldlild39ddl3do34">8lso392lldlILD39ddl3do34</string>
+    <string name="no_acount_not">You don\'t have an account Yet!!!</string>
+    <string name="todo">TODO</string>
+    <string name="order_infor">Take a photo of your prescription and send to complete order</string>
+    <string name="order_by_prescription">Order By Prescription</string>
+    <string name="upload">upload</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="register__user_telephone">Telephone</string>
+    <string name="register__email">Email</string>
+    <string name="register__password">password</string>
+    <string name="register__register">Register</string>
+    <string name="register__back_to_login">Already registered? Login</string>
+    <string name="register__first_name">First name</string>
+    <string name="register_last_name">Last name</string>
+
+
+    <string name="App_ID">ca-app-pub-3474043040187258~6777426106</string>
+    <string name="BANNER_ONE_UNIT_ID">ca-app-pub-3474043040187258/7906180100</string>
+    <string name="LOGIN_UNIT">ca-app-pub-3474043040187258/6058745961</string>
+    <string name="cosmeceuticals">Cosmeceuticals</string>
+    <string name="supplements">Supplements</string>
+    <string name="herbals">Herbals</string>
+    <string name="otp_medication">OTP medication</string>
+    <string name="prescription_only_medicines">Prescription only medicines</string>
+    <string name="national_drug_register">National Drug Register</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_update_item">updateItem_Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+</resources>
