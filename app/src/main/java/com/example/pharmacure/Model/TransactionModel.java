@@ -1,38 +1,39 @@
 package com.example.pharmacure.Model;
 
+import java.util.ArrayList;
+
 public class TransactionModel {
 
-    private String transactionDate;
+    private String Date;
     private String doctorName;
-    private String medicineDetails;
+
     private String patientName;
-    private String totalAmount;
-    private String transactionID;
-    private String key;
+    private String total_bill_amount;
+    private String bill_ID;
+
     private String patientAge;
+
+    public ArrayList<BillModel> getBillItemsList() {
+        return billItemsList;
+    }
+
+    public void setBillItemsList(ArrayList<BillModel> billItemsList) {
+        this.billItemsList = billItemsList;
+    }
+
+    private ArrayList<BillModel> billItemsList;
 
 
     public TransactionModel(){
 
     }
 
-    public TransactionModel(String transactionDate, String doctorName, String medicineDetails, String patientName, String totalAmount, String transactionID, String key, String patientAge) {
-        this.transactionDate = transactionDate;
-        this.doctorName = doctorName;
-        this.medicineDetails = medicineDetails;
-        this.patientName = patientName;
-        this.totalAmount = totalAmount;
-        this.transactionID = transactionID;
-        this.key = key;
-        this.patientAge = patientAge;
+    public String getDate() {
+        return Date;
     }
 
-    public String getTransactionDate() {
-        return transactionDate;
-    }
-
-    public void setTransactionDate(String transactionDate) {
-        this.transactionDate = transactionDate;
+    public void setDate(String date) {
+        Date = date;
     }
 
     public String getDoctorName() {
@@ -43,14 +44,6 @@ public class TransactionModel {
         this.doctorName = doctorName;
     }
 
-    public String getMedicineDetails() {
-        return medicineDetails;
-    }
-
-    public void setMedicineDetails(String medicineDetails) {
-        this.medicineDetails = medicineDetails;
-    }
-
     public String getPatientName() {
         return patientName;
     }
@@ -59,28 +52,20 @@ public class TransactionModel {
         this.patientName = patientName;
     }
 
-    public String getTotalAmount() {
-        return totalAmount;
+    public String getTotal_bill_amount() {
+        return total_bill_amount;
     }
 
-    public void setTotalAmount(String totalAmount) {
-        this.totalAmount = totalAmount;
+    public void setTotal_bill_amount(String total_bill_amount) {
+        this.total_bill_amount = total_bill_amount;
     }
 
-    public String getTransactionID() {
-        return transactionID;
+    public String getBill_ID() {
+        return bill_ID;
     }
 
-    public void setTransactionID(String transactionID) {
-        this.transactionID = transactionID;
-    }
-
-    public String getKey() {
-        return key;
-    }
-
-    public void setKey(String key) {
-        this.key = key;
+    public void setBill_ID(String bill_ID) {
+        this.bill_ID = bill_ID;
     }
 
     public String getPatientAge() {
@@ -89,5 +74,15 @@ public class TransactionModel {
 
     public void setPatientAge(String patientAge) {
         this.patientAge = patientAge;
+    }
+
+    public TransactionModel(String date, String doctorName, String patientName, String total_bill_amount, String bill_ID, String patientAge, ArrayList<BillModel> billItemsList) {
+        Date = date;
+        this.doctorName = doctorName;
+        this.patientName = patientName;
+        this.total_bill_amount = total_bill_amount;
+        this.bill_ID = bill_ID;
+        this.patientAge = patientAge;
+        this.billItemsList = billItemsList;
     }
 }

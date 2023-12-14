@@ -1,0 +1,154 @@
+
+h	java:S112Ã"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¼ìªÀÅ1
+i
+java:S1192›"FDefine a constant instead of duplicating this literal "Users" 5 times.(’„¹Ûúÿÿÿÿ8íªÀÅ1
+s
+java:S1192…"UDefine a constant instead of duplicating this literal "Enter valid quantity" 3 times.(Ñ’í8íªÀÅ1
+k
+java:S1192â"MDefine a constant instead of duplicating this literal "customerList" 5 times.(§Â¼Ê8íªÀÅ1
+i
+java:S1192–"KDefine a constant instead of duplicating this literal "dd-MM-yyyy" 3 times.(õøÍ8íªÀÅ1
+M
+java:S1066„"/Merge this if statement with the enclosing one.(ÛÚ³ş8­íªÀÅ1
+M
+java:S1066‹"/Merge this if statement with the enclosing one.(çšÍè8¾íªÀÅ1
+n	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾•Ü8ÁíªÀÅ1
+s	java:S117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¢£ùÿÿÿÿ8ÂíªÀÅ1
+F
+java:S1604¶"(Make this anonymous inner class a lambda(œçÓ™8ÃíªÀÅ1
+F
+java:S1604É"(Make this anonymous inner class a lambda(®ÎÄ8ÄíªÀÅ1
+F
+java:S1604­"(Make this anonymous inner class a lambda(”ÔÌ´8ÄíªÀÅ1
+F
+java:S1604è"(Make this anonymous inner class a lambda(œçÓ™8ÄíªÀÅ1
+F
+java:S1604ó"(Make this anonymous inner class a lambda(®ÎÄ8ÅíªÀÅ1
+E
+java:S1604Ş"(Make this anonymous inner class a lambda(Èİßl8ÅíªÀÅ1
+F
+java:S1604×"(Make this anonymous inner class a lambda(á™‡Ñ8ÆíªÀÅ1
+F
+java:S1604"(Make this anonymous inner class a lambda(¦«Ñ8ÆíªÀÅ1
+K
+java:S1604Â"(Make this anonymous inner class a lambda(áö¤Âùÿÿÿÿ8ÆíªÀÅ1
+K
+java:S1604÷"(Make this anonymous inner class a lambda(­áÅ¦üÿÿÿÿ8ÇíªÀÅ1
+E
+java:S1604Ó"(Make this anonymous inner class a lambda(®µ8ÇíªÀÅ1
+K
+java:S1604è"(Make this anonymous inner class a lambda(­áÅ¦üÿÿÿÿ8ÇíªÀÅ1
+E
+java:S1604—"(Make this anonymous inner class a lambda(®µ8ÈíªÀÅ1
+}
+java:S1104m"[Make generatedbillid a static final constant or non-public and provide accessors if needed.(´›ˆúùÿÿÿÿ8ÌíªÀÅ1
+W
+java:S1444m"5Make this "public static generatedbillid" field final(´›ˆúùÿÿÿÿ8ÎíªÀÅ1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(À×Ó?8ÜíªÀÅ1
+{	java:S116G"_Rename this field "register_customerbtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÚ˜8úïªÀÅ1
+p	java:S116a"TRename this field "hs_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øû¾ü8úïªÀÅ1
+q	java:S116b"VRename this field "base_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠáÅ*8ûïªÀÅ1
+s	java:S116c"WRename this field "Sctax_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ëª8ûïªÀÅ1
+{	java:S116d"ZRename this field "discount_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤‘‰˜øÿÿÿÿ8ûïªÀÅ1
+x	java:S116e"WRename this field "total_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û¥¹öıÿÿÿÿ8ûïªÀÅ1
+|
+java:S3008I"ZRename this field "save_genBillBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ˆˆ³üÿÿÿÿ8ûïªÀÅ1
+
+java:S3008J"_Rename this field "save_generateBillbtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÛÃÛıÿÿÿÿ8ûïªÀÅ1
+h
+java:S16596"FDeclare "dbinvoice" and all following declarations on a separate line.(¡ôñ×úÿÿÿÿ8‘ğªÀÅ1
+c
+java:S16598"ADeclare "act2" and all following declarations on a separate line.(Ÿ–°”ıÿÿÿÿ8‘ğªÀÅ1
+j
+java:S1659?"HDeclare "patientname" and all following declarations on a separate line.(ö´â­ıÿÿÿÿ8’ğªÀÅ1
+f
+java:S1659@"IDeclare "epatientname" and all following declarations on a separate line.(Œ—ú¼8“ğªÀÅ1
+e
+java:S1659B"CDeclare "mMonth" and all following declarations on a separate line.(İ—Ûéşÿÿÿÿ8“ğªÀÅ1
+O
+java:S1659G"2Declare "register_customerbtn" on a separate line.(ÛÚ˜8”ğªÀÅ1
+e
+java:S1659g"HDeclare "doclocality" and all following declarations on a separate line.(„Öçå8”ğªÀÅ1
+y
+java:S14506"WRemove the "dbdoctor" field and declare it as a local variable in the relevant methods.(¡ôñ×úÿÿÿÿ8–ğªÀÅ1
+z
+java:S14506"XRemove the "dbinvoice" field and declare it as a local variable in the relevant methods.(¡ôñ×úÿÿÿÿ8˜ğªÀÅ1
+z
+java:S14506"XRemove the "dbsummary" field and declare it as a local variable in the relevant methods.(¡ôñ×úÿÿÿÿ8™ğªÀÅ1
+q
+java:S14507"TRemove the "mAuth" field and declare it as a local variable in the relevant methods.(ªĞ”’8›ğªÀÅ1
+u
+java:S1450B"SRemove the "mDay" field and declare it as a local variable in the relevant methods.(İ—Ûéşÿÿÿÿ8›ğªÀÅ1
+w
+java:S1450B"URemove the "mMonth" field and declare it as a local variable in the relevant methods.(İ—Ûéşÿÿÿÿ8œğªÀÅ1
+v
+java:S1450B"TRemove the "mYear" field and declare it as a local variable in the relevant methods.(İ—Ûéşÿÿÿÿ8œğªÀÅ1
+]	java:S125F"<This block of commented-out lines of code should be removed.(ç‹©öÿÿÿÿÿ8²ğªÀÅ1
+]	java:S125F"<This block of commented-out lines of code should be removed.(ç‹©öÿÿÿÿÿ8²ğªÀÅ1
+t
+java:S3776q"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Û½Ê€şÿÿÿÿ8½ğªÀÅ1
+]	java:S125{"<This block of commented-out lines of code should be removed.(áÍåÜüÿÿÿÿ8ÑğªÀÅ1
+S
+java:S2696~"6Make the enclosing method "static" or remove this set.(®‹ØÇ8ÒğªÀÅ1
+^	java:S125ƒ"<This block of commented-out lines of code should be removed.(ìÉØˆøÿÿÿÿ8ÕğªÀÅ1
+S
+java:S2696‡"6Make the enclosing method "static" or remove this set.(Ùµ£8ÖğªÀÅ1
+Y
+java:S2696¨"6Make the enclosing method "static" or remove this set.(Âîôıÿÿÿÿ8èğªÀÅ1
+T
+java:S2696©"6Make the enclosing method "static" or remove this set.(¥¡’Ú8éğªÀÅ1
+Y	java:S125½"<This block of commented-out lines of code should be removed.(€ŞÑ–8ùğªÀÅ1
+|
+java:S2142Â"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8‡ñªÀÅ1
+^	java:S125Æ"<This block of commented-out lines of code should be removed.(º¥¾€øÿÿÿÿ8‰ñªÀÅ1
+^	java:S125ğ"<This block of commented-out lines of code should be removed.(º¥¾€øÿÿÿÿ8™ñªÀÅ1
+Ÿ
+java:S1186²"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Ş‰8¢ñªÀÅ1
+Ÿ
+java:S1186Ò"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8ÀòªÀÅ1
+Ÿ
+java:S1186ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Ş‰8ÒòªÀÅ1
+^	java:S125Š"<This block of commented-out lines of code should be removed.(àìñŸùÿÿÿÿ8ëòªÀÅ1
+\
+java:S1155¢">Use isEmpty() to check whether the collection is empty or not.(§´Çš8ñòªÀÅ1
+_
+java:S1126¥"AReplace this if-then-else statement by a single return statement.(„Í“½8òòªÀÅ1
+u
+java:S3776Ñ"RRefactor this method to reduce its Cognitive Complexity from 78 to the 15 allowed.(éÁ¯½şÿÿÿÿ8˜óªÀÅ1
+U
+java:S1117Õ"7Rename "mrp" which hides the field declared at line 93.(¶å²ª8ŸóªÀÅ1
+`
+java:S1117Ú"=Rename "packaging" which hides the field declared at line 91.(ïºÉ‰úÿÿÿÿ8¢óªÀÅ1
+[
+java:S1117Ü"8Rename "rate" which hides the field declared at line 94.(¢İŒ×úÿÿÿÿ8¤óªÀÅ1
+Y
+java:S2696ç"6Make the enclosing method "static" or remove this set.(ğÇ°¢úÿÿÿÿ8§óªÀÅ1
+_
+java:S1854ı"<Remove this useless assignment to local variable "looseqty".(ÖÁ’¥øÿÿÿÿ8°óªÀÅ1
+a
+java:S1854¨">Remove this useless assignment to local variable "calcamount".(‹¤ Œùÿÿÿÿ8±óªÀÅ1
+a
+java:S1854·">Remove this useless assignment to local variable "calcamount".(‹¤ Œùÿÿÿÿ8±óªÀÅ1
+^	java:S125•"<This block of commented-out lines of code should be removed.(Ü€Šøÿÿÿÿ8ÀóªÀÅ1
+T
+java:S2696˜"6Make the enclosing method "static" or remove this set.(ˆ’„Ê8ÁóªÀÅ1
+X	java:S125™"<This block of commented-out lines of code should be removed.(æ±Õl8ÂóªÀÅ1
+^	java:S125®"<This block of commented-out lines of code should be removed.(Ü€Šøÿÿÿÿ8ÈóªÀÅ1
+Y
+java:S2696±"6Make the enclosing method "static" or remove this set.(Ñ…³øÿÿÿÿ8ÉóªÀÅ1
+^	java:S125¿"<This block of commented-out lines of code should be removed.(Ü€Šøÿÿÿÿ8ÎóªÀÅ1
+T
+java:S2696Ä"6Make the enclosing method "static" or remove this set.(Ì‚Ë8ÏóªÀÅ1
+a
+java:S1854ù">Remove this useless assignment to local variable "calcamount".(‹¤ Œùÿÿÿÿ8ÛóªÀÅ1
+^	java:S125ò"<This block of commented-out lines of code should be removed.(¿Ìªııÿÿÿÿ8ßóªÀÅ1
+^	java:S125ø"<This block of commented-out lines of code should be removed.(ÓàÆ¥úÿÿÿÿ8àóªÀÅ1
+^	java:S125€"<This block of commented-out lines of code should be removed.(Ü€Šøÿÿÿÿ8ãóªÀÅ1
+Y	java:S125ƒ"<This block of commented-out lines of code should be removed.(Äæ‘®8ãóªÀÅ1
+^	java:S125…"<This block of commented-out lines of code should be removed.(Î¿Ëâıÿÿÿÿ8ãóªÀÅ1
+Y
+java:S2696Š"6Make the enclosing method "static" or remove this set.(–çäıÿÿÿÿ8äóªÀÅ1
+Y
+java:S2696µ"6Make the enclosing method "static" or remove this set.(£Øáİüÿÿÿÿ8îóªÀÅ1
+Ÿ
+java:S1186à"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚¯±à8ûóªÀÅ1

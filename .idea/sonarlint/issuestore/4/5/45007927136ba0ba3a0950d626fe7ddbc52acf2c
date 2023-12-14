@@ -1,0 +1,90 @@
+
+e
+java:S1192I"JDefine a constant instead of duplicating this literal "discount%" 4 times.(ÑÁª«ıÿÿÿÿ
+]
+java:S1192C"HDefine a constant instead of duplicating this literal "batchNo" 4 times.(Û•ÃC
+_
+java:S1192E"IDefine a constant instead of duplicating this literal "quantity" 4 times.(ÄÍƒ‡
+e
+java:S1192>"JDefine a constant instead of duplicating this literal "productID" 3 times.(ı“İ¬ùÿÿÿÿ
+f
+java:S1192M"PDefine a constant instead of duplicating this literal "discount_amount" 4 times.(’¢Ğ“
+g
+java:S1192A"LDefine a constant instead of duplicating this literal "companyName" 4 times.(×åÿúÿÿÿÿ
+j
+java:S1192L"ODefine a constant instead of duplicating this literal "S+C tax_amount" 4 times.(ø›«ûÿÿÿÿ
+e
+java:S1192D"JDefine a constant instead of duplicating this literal "packaging" 4 times.(ıÂû™şÿÿÿÿ
+a
+java:S11928"FDefine a constant instead of duplicating this literal "Users" 8 times.(£çˆËıÿÿÿÿ
+b
+java:S1192@"GDefine a constant instead of duplicating this literal "HSN_NO" 4 times.(¨ è³ıÿÿÿÿ
+b
+java:S1192="LDefine a constant instead of duplicating this literal "productName" 5 times.(™£†ô
+`
+java:S1192J"JDefine a constant instead of duplicating this literal "hs_amount" 4 times.(óğ®©
+d
+java:S1192H"IDefine a constant instead of duplicating this literal "S+C tax%" 4 times.(£ÁÊáúÿÿÿÿ
+h
+java:S1192N"MDefine a constant instead of duplicating this literal "total_amount" 4 times.(Û×½ùüÿÿÿÿ
+b
+java:S1192K"LDefine a constant instead of duplicating this literal "base_amount" 4 times.(†“õ¯
+\
+java:S1192?"GDefine a constant instead of duplicating this literal "GST NO" 4 times.(˜ˆĞR
+f
+java:S1192B"KDefine a constant instead of duplicating this literal "expriyDate" 4 times.(‚¸‚„üÿÿÿÿ
+g
+java:S11928"LDefine a constant instead of duplicating this literal "productList" 6 times.(£çˆËıÿÿÿÿ
+e
+java:S11928"JDefine a constant instead of duplicating this literal "Inventory" 6 times.(£çˆËıÿÿÿÿ
+‹
+java:S1319s"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¡Êúÿÿÿÿ
+
+java:S1319s"fThe type of "models" should be an interface such as "List" rather than the implementation "ArrayList".(¡Êúÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Õ‹‡‹úÿÿÿÿ
+o
+java:S3008)"TRename this field "hs_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è†àŒûÿÿÿÿ
+l
+java:S3008*"VRename this field "base_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å»¨ª
+m
+java:S3008+"WRename this field "Sctax_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´éÜ°
+p
+java:S3008,"ZRename this field "discount_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(··ğÛ
+m
+java:S3008-"WRename this field "total_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÕıú
+q
+java:S1845"VRename field "productId" to prevent any misunderstanding/clash with field "productid".(Æû‰¥ıÿÿÿÿ
+W	java:S1074"=Method has 18 parameters, which is greater than 7 authorized.(˜êëöúÿÿÿÿ
+S	java:S107¦"=Method has 19 parameters, which is greater than 7 authorized.(•–—
+X	java:S107í"=Method has 19 parameters, which is greater than 7 authorized.(«„Àñüÿÿÿÿ
+K
+java:S11724"0Remove this unused method parameter "productID".(˜êëöúÿÿÿÿ
+V	java:S1256"<This block of commented-out lines of code should be removed.(ÏÍÚ¸ûÿÿÿÿ
+—
+java:S1186T"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+—
+java:S1186j"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+`
+java:S1858f"J"message" is already a string, there's no need to call "toString()" on it.(Œ‚Éª
+h	java:S100s"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Êúÿÿÿÿ
+˜
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Ş‰
+d	java:S100¦"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•–—
+˜
+java:S1186Ï"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+S
+java:S1117¶"7Rename "map" which hides the field declared at line 24.(æšìúşÿÿÿÿ
+F	java:S106Ô"+Replace this use of System.out by a logger.(Ù ¿éùÿÿÿÿ
+˜
+java:S1186æ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+G
+java:S1172î"0Remove this unused method parameter "productID".(ƒÜ®ş
+˜
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+˜
+java:S1186¥"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+a
+java:S1858¡"J"message" is already a string, there's no need to call "toString()" on it.(Œ‚Éª
+˜
+java:S1186º"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+F	java:S106¿"+Replace this use of System.out by a logger.(¾£ªùÿÿÿÿ

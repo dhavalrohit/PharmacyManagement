@@ -133,7 +133,7 @@
                     </com.google.android.material.textfield.TextInputLayout>
                 </LinearLayout>
 
-                <com.google.android.material.textfield.TextInputLayout
+              <!--  <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/docLayout"
                     android:layout_width="match_parent"
                     android:layout_marginBottom="4dp"
@@ -145,7 +145,21 @@
                         android:layout_height="40dp"
                         android:hint="Doctor's Name (Optional)" />
 
-                </com.google.android.material.textfield.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>-->
+
+                <AutoCompleteTextView
+
+                    android:hint="Doctor Name.."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/doctorsearchact"
+                    android:layout_marginLeft="2dp"
+                    android:paddingLeft="5dp"
+                    android:maxLines="1"
+
+                    android:inputType="text"
+                    android:layout_weight="9" />
+
 
 
             </LinearLayout>
@@ -242,19 +256,42 @@
     </ScrollView>
 
 
-
-
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Generate Bill"
-        android:textSize="20dp"
-        android:id="@+id/genbtn"
-        android:textColor="@android:color/background_light"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="5dp"
-        android:background="@color/colorPrimary"
-        android:typeface="sans"
-        android:textStyle="normal|italic"/>
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textSize="20dp"
+            android:id="@+id/savebtn"
+            android:textColor="@android:color/background_light"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:typeface="sans"
+            android:textStyle="normal|italic"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Bill"
+            android:textSize="20dp"
+            android:id="@+id/saveprintbtn"
+            android:textColor="@android:color/background_light"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:typeface="sans"
+            android:textStyle="normal|italic"/>
+
+
+
+    </LinearLayout>
+
+
 
 </RelativeLayout>

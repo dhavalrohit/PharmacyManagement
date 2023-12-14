@@ -1,20 +1,13 @@
 package com.factory;
 
-import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.StringRes;
 
 import com.example.pharmacure.Model.MedicineModel;
-import com.example.pharmacure.R;
-import com.example.pharmacure.Transactions.AutoAdapterMedicine;
-import com.example.pharmacure.Transactions.TransactionActivity;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.GenericTypeIndicator;
 import com.google.firebase.database.ValueEventListener;
 

@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,8 +14,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-
         tools:targetApi="31">
+        <activity
+            android:name=".Bill.taxBills.tax_billActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Doctor_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Bill.taxBill.taxBill_Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Summary.Log_Activity"
             android:exported="false" />
@@ -29,10 +41,10 @@
             android:name=".Customer.Update_Customer_Activity"
             android:exported="false" />
         <activity
-            android:name=".Transactions.TransactionActivity"
+            android:name=".Transactions.newTransaction.TransactionActivity"
             android:exported="false" />
         <activity
-            android:name=".Transactions.Bill_Activity"
+            android:name=".Bill.salesBill.Bill_Activity"
             android:exported="false" />
         <activity
             android:name=".Inventory.Update_Item_Activity"
@@ -40,8 +52,7 @@
         <activity
             android:name=".updateItem_Activity"
             android:exported="false"
-            android:label="@string/title_activity_update_item"
-             />
+            android:label="@string/title_activity_update_item" />
         <activity
             android:name=".Inventory.NewItem_Activity"
             android:exported="false" />
@@ -50,8 +61,8 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Inventory.ItemsFragement"
             android:exported="false" />

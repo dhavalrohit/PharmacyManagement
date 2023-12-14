@@ -4,6 +4,25 @@ public class BillModel {
     private String productName;
     private String rate;
     private String quantity;
+    private String discperc;
+
+    public String getDiscperc() {
+        return discperc;
+    }
+
+    public void setDiscperc(String discperc) {
+        this.discperc = discperc;
+    }
+
+    public String getHsnocode() {
+        return hsnocode;
+    }
+
+    public void setHsnocode(String hsnocode) {
+        this.hsnocode = hsnocode;
+    }
+
+    private String hsnocode;
     private String totalAmount;
     private String batch;
     private String expirydate;
@@ -48,7 +67,9 @@ public class BillModel {
     private String companyName;
 
 
-    public BillModel(String productName, String rate, String quantity, String batch, String expirydate, String key, String originalQuantity, String packaging, String gst, String looseqty, String mrp, String totalAmount, String companyName) {
+
+
+    public BillModel(String productName, String rate, String quantity, String batch, String expirydate, String key, String originalQuantity, String packaging, String gst, String looseqty, String mrp, String totalAmount, String companyName, String hsnocode, String discperc) {
         this.productName = productName;
         this.rate = rate;
         this.quantity = quantity;
@@ -59,10 +80,37 @@ public class BillModel {
         this.packaging = packaging;
         this.gst = gst;
         this.looseqty = looseqty;
+        this.discperc=discperc;
+        this.hsnocode=hsnocode;
         this.mrp = mrp;
         this.totalAmount = totalAmount;
         this.companyName = companyName;
     }
+
+
+
+    public BillModel(String productName, String rate, String quantity, String batch, String expirydate, String packaging, String gst, String looseqty, String mrp, String totalAmount, String companyName,String hsncode,String discperc) {
+        this.productName = productName;
+        this.rate = rate;
+        this.quantity = quantity;
+        this.batch = batch;
+        this.expirydate = expirydate;
+        this.packaging = packaging;
+        this.gst = gst;
+        this.looseqty = looseqty;
+        this.mrp = mrp;
+        this.totalAmount = totalAmount;
+        this.companyName = companyName;
+        this.discperc=discperc;
+        this.hsnocode=hsncode;
+    }
+
+
+
+
+
+
+
 
 
     public String getCompanyName() {
@@ -157,4 +205,5 @@ public class BillModel {
     public BillModel(){
 
     }
+
 }

@@ -1,0 +1,97 @@
+
+t
+java:S2293f"YReplace the type specification in this constructor call with the diamond operator ("<>").(úØŸÿÿÿÿÿ
+h
+java:S1192…"QDefine a constant instead of duplicating this literal "Cannot be Empty" 10 times.(Ê¸ã
+F
+java:S1066×"/Merge this if statement with the enclosing one.(€¦èŸ
+K
+java:S1066Ş"/Merge this if statement with the enclosing one.(ŸÃ®îıÿÿÿÿ
+K
+java:S1066ë"/Merge this if statement with the enclosing one.(ŸÃ®îıÿÿÿÿ
+F
+java:S1066ó"/Merge this if statement with the enclosing one.(ƒÄ¥
+K
+java:S1066ô"/Merge this if statement with the enclosing one.(ŸÃ®îıÿÿÿÿ
+K
+java:S1066š"/Merge this if statement with the enclosing one.(ŸÃ®îıÿÿÿÿ
+K
+java:S1066¤"/Merge this if statement with the enclosing one.(ŸÃ®îıÿÿÿÿ
+K
+java:S1066­"/Merge this if statement with the enclosing one.(ŸÃ®îıÿÿÿÿ
+D
+java:S1604"(Make this anonymous inner class a lambda(“ãšŒÿÿÿÿÿ
+D
+java:S1604’"(Make this anonymous inner class a lambda(ĞËÙ“ùÿÿÿÿ
+?
+java:S1604©"(Make this anonymous inner class a lambda(ø’İ
+?
+java:S1604Â"(Make this anonymous inner class a lambda(¦«Ñ
+?
+java:S1604Ë"(Make this anonymous inner class a lambda(¨Çè²
+D
+java:S1604ß"(Make this anonymous inner class a lambda(áö¤Âùÿÿÿÿ
+b	java:S101("MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Çóú£
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™Å¤øÿÿÿÿ
+x	java:S116+"^Rename this field "producttype_spinner" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êê¹ıÿÿÿÿ
+u	java:S116+"[Rename this field "unittype_spinner" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êê¹ıÿÿÿÿ
+Z
+java:S1659*"DDeclare "batchNo" and all following declarations on a separate line.(”å¶¦
+]
+java:S1659+"BDeclare "cstax" and all following declarations on a separate line.(Êê¹ıÿÿÿÿ
+a
+java:S1659,"FDeclare "exbatchNo" and all following declarations on a separate line.(Æ£Ü“øÿÿÿÿ
+^
+java:S16594"CDeclare "mMonth" and all following declarations on a separate line.(İ—Ûéşÿÿÿÿ
+:
+java:S16598"$Declare "addbtn" on a separate line.(ˆúõÀ
+n
+java:S14504"SRemove the "mDay" field and declare it as a local variable in the relevant methods.(İ—Ûéşÿÿÿÿ
+p
+java:S14504"URemove the "mMonth" field and declare it as a local variable in the relevant methods.(İ—Ûéşÿÿÿÿ
+o
+java:S14504"TRemove the "mYear" field and declare it as a local variable in the relevant methods.(İ—Ûéşÿÿÿÿ
+n
+java:S3776;"SRefactor this method to reduce its Cognitive Complexity from 108 to the 15 allowed.(¨Œşÿÿÿÿ
+Q	java:S125Y"<This block of commented-out lines of code should be removed.(‚„äø
+V	java:S125^"<This block of commented-out lines of code should be removed.(Ù¼šøÿÿÿÿ
+@	java:S106”"+Replace this use of System.out by a logger.(â©ã~
+W	java:S125¥"<This block of commented-out lines of code should be removed.(ÁÓıÙüÿÿÿÿ
+˜
+java:S1186Ê"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+
+java:S1186Ï"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ
+T
+java:S1117Ù"8Rename "rate" which hides the field declared at line 42.(˜»Ï‹ÿÿÿÿÿ
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(‚Æıüÿÿÿÿ
+D	java:S108")Either remove or fill this block of code.(‹Ş‰¾øÿÿÿÿ
+T
+java:S1117•"8Rename "rate" which hides the field declared at line 42.(˜»Ï‹ÿÿÿÿÿ
+
+java:S1186Í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
+
+java:S1186İ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
+
+java:S1186ø"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
+
+java:S1186‰"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
+D	java:S108•")Either remove or fill this block of code.(‹Ş‰¾øÿÿÿÿ
+F	java:S106š"+Replace this use of System.out by a logger.(ŒïÌİùÿÿÿÿ
+Z
+java:S2130›">Use "Double.parseDouble" for this string-to-double conversion.(õ€²–øÿÿÿÿ
+F	java:S106œ"+Replace this use of System.out by a logger.(Ÿ´õ‚úÿÿÿÿ
+D	java:S108¬")Either remove or fill this block of code.(‹Ş‰¾øÿÿÿÿ
+Z
+java:S2130²">Use "Double.parseDouble" for this string-to-double conversion.(õ€²–øÿÿÿÿ
+U
+java:S2130¶">Use "Double.parseDouble" for this string-to-double conversion.(øŒ‹ò
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ø¬Ú±ıÿÿÿÿ
+?
+java:S1185Ô"(Remove this method to simply inherit it.(¨‰ïÃ
+Q
+java:S1161Ô":Add the "@Override" annotation above this method signature(¨‰ïÃ
+A
+java:S10680"&Remove this unused "db" private field.(äàßùÿÿÿÿ
+?
+java:S10682")Remove this unused "mAuth" private field.(ªĞ”’

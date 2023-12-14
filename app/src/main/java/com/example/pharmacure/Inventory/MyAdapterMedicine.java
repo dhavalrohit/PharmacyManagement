@@ -119,6 +119,7 @@ public class MyAdapterMedicine extends RecyclerView.Adapter<MyViewHolderMedicine
 
                                 dataSnapshot.getRef().removeValue();
                                 dialog.dismiss();
+
                                 models.remove(holder.getAdapterPosition());
                                 notifyItemRemoved(holder.getAdapterPosition());
                                 notifyItemRangeChanged(holder.getAdapterPosition(), models.size());

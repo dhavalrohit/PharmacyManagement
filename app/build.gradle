@@ -43,7 +43,7 @@ dependencies {
     implementation libs.play.services.auth
     implementation libs.navigation.fragment
     implementation libs.navigation.ui
-
+    implementation libs.androidx.gridlayout
 
 
     testImplementation libs.junit

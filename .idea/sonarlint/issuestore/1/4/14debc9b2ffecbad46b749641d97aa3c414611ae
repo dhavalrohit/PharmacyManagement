@@ -1,0 +1,8 @@
+
+…
+java:S1319"jThe type of "listModels" should be an interface such as "List" rather than the implementation "ArrayList".(ªª¯Åýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹ŽÎÄýÿÿÿÿ
+a
+java:S1659+"FDeclare "packaging" and all following declarations on a separate line.(àºóŸùÿÿÿÿ
+j
+java:S32525"OUse static access with "android.content.Context" for "LAYOUT_INFLATER_SERVICE".(ÕÐÕÏùÿÿÿÿ

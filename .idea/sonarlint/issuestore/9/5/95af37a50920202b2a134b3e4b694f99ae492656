@@ -1,0 +1,60 @@
+
+M
+java:S3740®"/Provide the parametrized type for this generic.(î¢Ò8Ä¿·ÁÅ1
+c
+java:S11926"FDefine a constant instead of duplicating this literal "Users" 3 times.(Úê†‘8Ç¿·ÁÅ1
+f
+java:S11926"IDefine a constant instead of duplicating this literal "billList" 3 times.(Úê†‘8Ç¿·ÁÅ1
+g
+java:S11926"JDefine a constant instead of duplicating this literal "salesBill" 3 times.(Úê†‘8Ç¿·ÁÅ1
+c
+java:S11926"FDefine a constant instead of duplicating this literal "Sales" 3 times.(Úê†‘8È¿·ÁÅ1
+
+java:S13192"mThe type of "billitemslist" should be an interface such as "List" rather than the implementation "ArrayList".(ÑÔüÿÿÿÿ8É¿·ÁÅ1
+“
+java:S1319…"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ç•ôúÿÿÿÿÿ8Ê¿·ÁÅ1
+E
+java:S1604V"(Make this anonymous inner class a lambda(øÿŞ8Ë¿·ÁÅ1
+J
+java:S1604["(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ8Ì¿·ÁÅ1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªõ¤µûÿÿÿÿ8Î¿·ÁÅ1
+o	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÔüÿÿÿÿ8À·ÁÅ1
+G	java:S1065"+Replace this use of System.out by a logger.(å ¿·8À·ÁÅ1
+]	java:S1254"<This block of commented-out lines of code should be removed.(ï¹¹˜üÿÿÿÿ8À·ÁÅ1
+
+java:S1186x"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8¬À·ÁÅ1
+p	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç•ôúÿÿÿÿÿ8¯À·ÁÅ1
+Ÿ
+java:S1186›"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯øÓÀ8²À·ÁÅ1
+Ÿ
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹²æµ8²À·ÁÅ1
+Ÿ
+java:S1186¥"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8³À·ÁÅ1
+Y
+java:S2696³"6Make the enclosing method "static" or remove this set.(ç³¾­øÿÿÿÿ8ºÀ·ÁÅ1
+Y
+java:S2696´"6Make the enclosing method "static" or remove this set.(£Áù¶úÿÿÿÿ8»À·ÁÅ1
+S
+java:S2696µ"6Make the enclosing method "static" or remove this set.(ÂˆÚq8¼À·ÁÅ1
+Y
+java:S2696¶"6Make the enclosing method "static" or remove this set.(ÉÑŠşÿÿÿÿ8¼À·ÁÅ1
+T
+java:S2696·"6Make the enclosing method "static" or remove this set.(¨Ú©õ8½À·ÁÅ1
+T
+java:S2696¸"6Make the enclosing method "static" or remove this set.(ÚŒÌÒ8¾À·ÁÅ1
+Y
+java:S2696¹"6Make the enclosing method "static" or remove this set.(ÁÈêİúÿÿÿÿ8¾À·ÁÅ1
+T
+java:S2696º"6Make the enclosing method "static" or remove this set.(úœ®É8¿À·ÁÅ1
+Y
+java:S2696»"6Make the enclosing method "static" or remove this set.(œ¡¢Óûÿÿÿÿ8¿À·ÁÅ1
+T
+java:S2696¼"6Make the enclosing method "static" or remove this set.(Ì®âü8ÀÀ·ÁÅ1
+Y
+java:S2696½"6Make the enclosing method "static" or remove this set.(ö«ä¼ùÿÿÿÿ8ÀÀ·ÁÅ1
+T
+java:S2696¾"6Make the enclosing method "static" or remove this set.(ëç‚®8ÁÀ·ÁÅ1
+Y
+java:S2696¿"6Make the enclosing method "static" or remove this set.(èñÄĞûÿÿÿÿ8ÁÀ·ÁÅ1
+W
+java:S1117Á"9Rename "model" which hides the field declared at line 41.(‰ò×Æ8ÂÀ·ÁÅ1

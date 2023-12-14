@@ -43,7 +43,7 @@ public class Sample_Bill_Activity extends AppCompatActivity {
         age = (TextView) findViewById(R.id.age);
         doctorname = (TextView) findViewById(R.id.docname);
         totamt = (TextView) findViewById(R.id.totamt);
-        name = (TextView) findViewById(R.id.name);
+
 
         mAuth = Firebase_factory.getFirebaseAuth_Instance();
         uid = Firebase_factory.getfbUserId();

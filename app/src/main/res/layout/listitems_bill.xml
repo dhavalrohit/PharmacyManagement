@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+
+
+            android:text="S."
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:id="@+id/serialNo_bill"
+            android:background="@drawable/border"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="QT"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="9dp"
+                android:id="@+id/quantity_bill"
+                android:background="@drawable/border"/>
+
+
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:text="LQT"
+                android:textColor="#000000"
+                android:textSize="9dp"
+                android:id="@+id/loosequantity_bill"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="150dp"
+                android:paddingLeft="5dp"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:textAlignment="textStart"
+
+
+                android:layout_weight="1"
+
+                android:textColor="#000000"
+                android:text="Description"
+                android:textSize="10dp"
+                android:id="@+id/productname_bill"
+                android:background="@drawable/border"/>
+
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:paddingLeft="5dp"
+                android:textAlignment="textStart"
+
+                android:layout_weight="1"
+
+                android:textColor="#000000"
+                android:text="packaging"
+                android:textSize="9dp"
+                android:id="@+id/packaging_bill"
+                android:background="@drawable/border"/>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+
+            android:layout_weight="1"
+
+            android:textColor="#000000"
+            android:text="MFG"
+            android:textSize="10dp"
+            android:id="@+id/company_name_bill"
+            android:background="@drawable/border"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+
+            android:textColor="#000000"
+
+            android:layout_weight="1"
+            android:text="Batch"
+            android:textSize="10dp"
+            android:id="@+id/batch_bill"
+            android:background="@drawable/border"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+
+            android:textColor="#000000"
+
+            android:layout_weight="1"
+            android:text="Expiry"
+            android:textSize="9dp"
+            android:id="@+id/expiry_bill"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+
+            android:textColor="#000000"
+
+            android:layout_weight="1"
+            android:text="gst"
+            android:textSize="10dp"
+            android:id="@+id/gstperc_bill"
+            android:background="@drawable/border"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+
+            android:textColor="#000000"
+
+            android:layout_weight="1"
+            android:text="Amount"
+            android:textSize="10dp"
+            android:id="@+id/amount_bill"
+            android:background="@drawable/border"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+

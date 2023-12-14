@@ -13,21 +13,20 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.pharmacure.Customer.CustomerFragement;
+import com.example.pharmacure.Doctor.doctorFragement;
 import com.example.pharmacure.Inventory.ItemsFragement;
 import com.example.pharmacure.Registration.Login_activity;
 import com.example.pharmacure.Registration.Updateinfo_activity;
 import com.example.pharmacure.Summary.Summary_Fragement;
-import com.example.pharmacure.Transactions.TransactionActivity;
-import com.example.pharmacure.Transactions.TransactionFragement;
+import com.example.pharmacure.Transactions.newTransaction.TransactionActivity;
+import com.example.pharmacure.Transactions.transHistory.TransactionFragement;
 import com.factory.Firebase_factory;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
@@ -35,7 +34,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -203,7 +201,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_about) {
             Intent i = new Intent(this, About.class);
             startActivity(i);
-        }*/
+        }*/ else if (id==R.id.nav_doctors) {
+            FragmentManager fragmentManager=getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_frame,new doctorFragement()).commit();
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
