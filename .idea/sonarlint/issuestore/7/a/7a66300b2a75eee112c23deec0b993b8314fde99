@@ -1,36 +1,85 @@
 
-c
-java:S1192m"FDefine a constant instead of duplicating this literal "Users" 3 times.(ÍÓõ8’É¼Æ1
-n	java:S101&"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¶Æë‘ıÿÿÿÿ8˜É¼Æ1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚ö®×üÿÿÿÿ8œÉ¼Æ1
+u
+java:S1192×"RDefine a constant instead of duplicating this literal "generated_pdf.pdf" 3 times.(ñÿ®­øÿÿÿÿ8ÜŠçÊ1
+d
+java:S1192¯"FDefine a constant instead of duplicating this literal "Users" 3 times.(ÍÓõ8¨Ù±¾É1
+K
+java:S1604É"(Make this anonymous inner class a lambda(ùÁ„³şÿÿÿÿ8­Ù±¾É1
+F
+java:S1604Ô"(Make this anonymous inner class a lambda(©Ç–û8®Ù±¾É1
+n	java:S101K"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¶Æë‘ıÿÿÿÿ8´Ù±¾É1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚ö®×üÿÿÿÿ8ÃÙ±¾É1
+k
+java:S2095å"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Œ’¼÷8‹Ü±¾É1
+l
+java:S2095æ"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(—’°ë8ŒÜ±¾É1
+¤
+java:S1186‘"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Â¥õÎûÿÿÿÿ8·Ü±¾É1
+ˆ
+java:S1845Ø"jRename method "getTotalbillamount" to prevent any misunderstanding/clash with method "gettotalbillamount".(İ¥Ü©8ºÜ±¾É1
 j
-java:S1659("HDeclare "shopaddress" and all following declarations on a separate line.(Í¶îÈüÿÿÿÿ8ˆÊ¼Æ1
+java:S1659N"HDeclare "shopaddress" and all following declarations on a separate line.(Í¶îÈüÿÿÿÿ8¿Ü±¾É1
+L
+java:S1659R"*Declare "footerlayout" on a separate line.(ì¥¸úıÿÿÿÿ8¿Ü±¾É1
+f
+java:S1659T"DDeclare "backbtn" and all following declarations on a separate line.(‹ûşÿÿÿÿ8ÁÜ±¾É1
 B
-java:S1659." Declare "di" on a separate line.(æÛ¦şÿÿÿÿ8ˆÊ¼Æ1
-\
-java:S1854g":Remove this useless assignment to local variable "billId".(ÑÔ˜®şÿÿÿÿ8›Ê¼Æ1
+java:S1659X" Declare "di" on a separate line.(æÛ¦şÿÿÿÿ8ÁÜ±¾É1
+H
+java:S2440m"&Remove this instantiation of "Common".(Ìüû¥øÿÿÿÿ8Óİ±¾É1
+]
+java:S1854¦":Remove this useless assignment to local variable "billId".(ÑÔ˜®şÿÿÿÿ8äİ±¾É1
 T
-java:S1874A"7Remove this use of "FLAG_FULLSCREEN"; it is deprecated.(±èšÙ8Ê¼Æ1
+java:S1874t"7Remove this use of "FLAG_FULLSCREEN"; it is deprecated.(±èšÙ8ëİ±¾É1
 T
-java:S1874B"7Remove this use of "FLAG_FULLSCREEN"; it is deprecated.(­‰ı›8Ê¼Æ1
-M
-java:S1481g"+Remove this unused "billId" local variable.(ÑÔ˜®şÿÿÿÿ8¨Ê¼Æ1
-T
-java:S1117j"7Rename "uid" which hides the field declared at line 47.(ĞÉ¯û8ªÊ¼Æ1
-Ÿ
-java:S1186œ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8¬Ê¼Æ1
+java:S1874u"7Remove this use of "FLAG_FULLSCREEN"; it is deprecated.(­‰ı›8ëİ±¾É1
+N
+java:S1481¦"+Remove this unused "billId" local variable.(ÑÔ˜®şÿÿÿÿ8÷İ±¾É1
 U
-java:S1117€"8Rename "rate" which hides the field declared at line 49.(û’ô.8µÊ¼Æ1
+java:S1117©"7Rename "uid" which hides the field declared at line 89.(ĞÉ¯û8øİ±¾É1
+^	java:S125²"<This block of commented-out lines of code should be removed.(®Ê¬Äúÿÿÿÿ8ûİ±¾É1
+Ÿ
+java:S1186–"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8üİ±¾É1
+^	java:S125Ä"<This block of commented-out lines of code should be removed.(ş‰ÅÈüÿÿÿÿ8Ş±¾É1
+U
+java:S1117Ì"8Rename "rate" which hides the field declared at line 91.(û’ô.8Ş±¾É1
 Y
-java:S2696"6Make the enclosing method "static" or remove this set.( ‡ú‰ÿÿÿÿÿ8µÊ¼Æ1
-Z
-java:S1117‰"<Rename "quantity" which hides the field declared at line 56.(²×ä8·Ê¼Æ1
-Z
-java:S1117Œ"<Rename "discperc" which hides the field declared at line 58.(üêá8¸Ê¼Æ1
-Y	java:S125"<This block of commented-out lines of code should be removed.(‘îüÌ8ºÊ¼Æ1
-^	java:S125•"<This block of commented-out lines of code should be removed.(Šîü±ÿÿÿÿÿ8ºÊ¼Æ1
-^	java:S125—"<This block of commented-out lines of code should be removed.(Õ˜­üüÿÿÿÿ8ºÊ¼Æ1
+java:S2696Í"6Make the enclosing method "static" or remove this set.( ‡ú‰ÿÿÿÿÿ8Ş±¾É1
+[
+java:S1117Õ"=Rename "quantity" which hides the field declared at line 104.(²×ä8”Ş±¾É1
+[
+java:S1117Ø"=Rename "discperc" which hides the field declared at line 106.(üêá8•Ş±¾É1
+Y	java:S125İ"<This block of commented-out lines of code should be removed.(‘îüÌ8—Ş±¾É1
+^	java:S125á"<This block of commented-out lines of code should be removed.(Šîü±ÿÿÿÿÿ8—Ş±¾É1
+U
+java:S1117ô"8Rename "rate" which hides the field declared at line 91.(û’ô.8™Ş±¾É1
+Y
+java:S2696õ"6Make the enclosing method "static" or remove this set.( ‡ú‰ÿÿÿÿÿ8šŞ±¾É1
+[
+java:S1117ı"=Rename "quantity" which hides the field declared at line 104.(²×ä8Ş±¾É1
+[
+java:S1117€"=Rename "discperc" which hides the field declared at line 106.(üêá8ŸŞ±¾É1
+Y	java:S125…"<This block of commented-out lines of code should be removed.(‘îüÌ8 Ş±¾É1
+^	java:S125Š"<This block of commented-out lines of code should be removed.(Šîü±ÿÿÿÿÿ8 Ş±¾É1
+^	java:S125Œ"<This block of commented-out lines of code should be removed.(Õ˜­üüÿÿÿÿ8 Ş±¾É1
 Ÿ
-java:S1186·"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8¾Ê¼Æ1
+java:S1186­"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8¨Ş±¾É1
 Ÿ
-java:S1186Ê"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8ÃÊ¼Æ1
+java:S1186¿"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8†ß±¾É1
+^	java:S125Ø"<This block of commented-out lines of code should be removed.(ÅúÑÚùÿÿÿÿ8´ß±¾É1
+Y	java:S125â"<This block of commented-out lines of code should be removed.(æšÇÏ8¸ß±¾É1
+Y	java:S125ğ"<This block of commented-out lines of code should be removed.(»õ©ş8¾ß±¾É1
+¤
+java:S1186›"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”ÇÜ£øÿÿÿÿ8çß±¾É1
+Ÿ
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“¾¶Ğ8êß±¾É1
+p	java:S100¶"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çØøÿÿÿÿ8©à±¾É1
+^	java:S125è"<This block of commented-out lines of code should be removed.(ÁÛ¡ùÿÿÿÿ8«à±¾É1
+^	java:S125Ø"<This block of commented-out lines of code should be removed.(Óƒ€ûÿÿÿÿ8ßà±¾É1
+p	java:S100Ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ÛÎÿÿÿÿÿ8ìà±¾É1
+c
+java:S2147ó"ECombine this catch with the one at line 624, which has the same body.(”ı¾8ñà±¾É1
+Y	java:S125°"<This block of commented-out lines of code should be removed.(È˜Ùï8ÿá±¾É1
+Y	java:S125¶"<This block of commented-out lines of code should be removed.(ÚÇœ8â±¾É1
+S
+java:S1144Ş"0Remove this unused private "printPdf_m1" method.(­ÛÎÿÿÿÿÿ8†â±¾É1

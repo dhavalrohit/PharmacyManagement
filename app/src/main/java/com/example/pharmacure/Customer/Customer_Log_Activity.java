@@ -36,7 +36,7 @@ public class Customer_Log_Activity extends AppCompatActivity {
         db = Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Customer").child("Customers")
                 .child(k);
 
-        db.keepSynced(true);
+        //db.keepSynced(true);
         db.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

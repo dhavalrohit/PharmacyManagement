@@ -1,0 +1,21 @@
+
+V
+java:S1854(";Remove this useless assignment to local variable "btncust".(®İÖÚıÿÿÿÿ
+Y
+java:S1854'"CRemove this useless assignment to local variable "btntranshistory".(ÑÔç
+V
+java:S1854&"@Remove this useless assignment to local variable "btninventory".(İá›ö
+W
+java:S1854%"<Remove this useless assignment to local variable "btntrans".(÷™ãıÿÿÿÿ
+U
+java:S1161":Add the "@Override" annotation above this method signature(Ê¬·‚ûÿÿÿÿ
+H
+java:S1481%"-Remove this unused "btntrans" local variable.(÷™ãıÿÿÿÿ
+G
+java:S1481&"1Remove this unused "btninventory" local variable.(İá›ö
+J
+java:S1481'"4Remove this unused "btntranshistory" local variable.(ÑÔç
+G
+java:S1481(",Remove this unused "btncust" local variable.(®İÖÚıÿÿÿÿ
+E	java:S106;"+Replace this use of System.out by a logger.(°Ôúİøÿÿÿÿ
+@	java:S106>"+Replace this use of System.out by a logger.(«‹Îõ

@@ -1,35 +1,49 @@
 
 
-java:S1319P"mThe type of "billlistmodel" should be an interface such as "List" rather than the implementation "ArrayList".(‚Ñ´„ıÿÿÿÿ8õòä¾Æ1
-r	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÎËöúÿÿÿÿ8öòä¾Æ1
-r	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îìïšúÿÿÿÿ8öòä¾Æ1
+java:S1319X"mThe type of "billlistmodel" should be an interface such as "List" rather than the implementation "ArrayList".(‚Ñ´„ıÿÿÿÿ8€ØèÇ1
+r	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÎËöúÿÿÿÿ8ˆØèÇ1
+r	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îìïšúÿÿÿÿ8ˆØèÇ1
 …
-java:S1488e"cImmediately return this expression instead of assigning it to the temporary variable "base_amount".(Îìïšúÿÿÿÿ8öòä¾Æ1
+java:S1488m"cImmediately return this expression instead of assigning it to the temporary variable "base_amount".(Îìïšúÿÿÿÿ8‰ØèÇ1
 ƒ
-java:S1488k"aImmediately return this expression instead of assigning it to the temporary variable "taxamount".(‹¥îûÿÿÿÿ8öòä¾Æ1
+java:S1488s"aImmediately return this expression instead of assigning it to the temporary variable "taxamount".(‹¥îûÿÿÿÿ8ŠØèÇ1
 ˆ
-java:S1488p"fImmediately return this expression instead of assigning it to the temporary variable "discountamount".(ÆÆÀ½ùÿÿÿÿ8öòä¾Æ1
+java:S1488x"fImmediately return this expression instead of assigning it to the temporary variable "discountamount".(ÆÆÀ½ùÿÿÿÿ8ŠØèÇ1
 …
-java:S1488u"cImmediately return this expression instead of assigning it to the temporary variable "totalamount".(¤üşşÿÿÿÿ8÷òä¾Æ1
-†
-java:S1488{"dImmediately return this expression instead of assigning it to the temporary variable "taxablevalue".(ùÒ•áùÿÿÿÿ8÷òä¾Æ1
+java:S1488}"cImmediately return this expression instead of assigning it to the temporary variable "totalamount".(¤üşşÿÿÿÿ8ŠØèÇ1
+‡
+java:S1488ƒ"dImmediately return this expression instead of assigning it to the temporary variable "taxablevalue".(ùÒ•áùÿÿÿÿ8ŠØèÇ1
 ˆ
-java:S1488€"eImmediately return this expression instead of assigning it to the temporary variable "discountvalue".(øñÌ§úÿÿÿÿ8÷òä¾Æ1
+java:S1488ˆ"eImmediately return this expression instead of assigning it to the temporary variable "discountvalue".(øñÌ§úÿÿÿÿ8‹ØèÇ1
 ƒ
-java:S1488„"`Immediately return this expression instead of assigning it to the temporary variable "discperc".(ì÷Ò‚ùÿÿÿÿ8÷òä¾Æ1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è‹µÆ8úòä¾Æ1
-o	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÔúıûÿÿÿÿ8•ôä¾Æ1
-j	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ë¶è8›ôä¾Æ1
-o	java:S100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ñ´„ıÿÿÿÿ8¢ôä¾Æ1
-o	java:S100d"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÎËöúÿÿÿÿ8¥ôä¾Æ1
-o	java:S100o"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì‘ñ¥şÿÿÿÿ8¦ôä¾Æ1
-o	java:S100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÉ¡Ãùÿÿÿÿ8¦ôä¾Æ1
-]	java:S125"<This block of commented-out lines of code should be removed.(Ò£¯àşÿÿÿÿ8¨ôä¾Æ1
+java:S1488Œ"`Immediately return this expression instead of assigning it to the temporary variable "discperc".(ì÷Ò‚ùÿÿÿÿ8‹ØèÇ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è‹µÆ8ØèÇ1
+o	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÔúıûÿÿÿÿ8ÙÙèÇ1
+j	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ë¶è8ŞÙèÇ1
+o	java:S100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ñ´„ıÿÿÿÿ8âÙèÇ1
+o	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÎËöúÿÿÿÿ8çÙèÇ1
+o	java:S100w"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì‘ñ¥şÿÿÿÿ8éÙèÇ1
+o	java:S100|"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÉ¡Ãùÿÿÿÿ8ëÙèÇ1
+^	java:S125‡"<This block of commented-out lines of code should be removed.(Ò£¯àşÿÿÿÿ8ïÙèÇ1
 D
-java:S1110„"!Remove these useless parentheses.(ì÷Ò‚ùÿÿÿÿ8©ôä¾Æ1
+java:S1110Œ"!Remove these useless parentheses.(ì÷Ò‚ùÿÿÿÿ8óÙèÇ1
 b
-java:S1854Ÿ"?Remove this useless assignment to local variable "finalamount".(œ°µ…şÿÿÿÿ8Ô¼í¾Æ1
-^	java:S125‰"<This block of commented-out lines of code should be removed.(ĞàÅ€ıÿÿÿÿ8¯ôä¾Æ1
-^	java:S125"<This block of commented-out lines of code should be removed.(çÛºğÿÿÿÿÿ8¯ôä¾Æ1
+java:S1854§"?Remove this useless assignment to local variable "finalamount".(œ°µ…şÿÿÿÿ8ıÙèÇ1
+^	java:S125‘"<This block of commented-out lines of code should be removed.(ĞàÅ€ıÿÿÿÿ8şÙèÇ1
+^	java:S125—"<This block of commented-out lines of code should be removed.(çÛºğÿÿÿÿÿ8ÿÙèÇ1
 S
-java:S1481Ÿ"0Remove this unused "finalamount" local variable.(œ°µ…şÿÿÿÿ8Õ¼í¾Æ1
+java:S1481§"0Remove this unused "finalamount" local variable.(œ°µ…şÿÿÿÿ8ÿÙèÇ1
+h
+java:S1117²"ERename "sharedPreferences" which hides the field declared at line 23.(ßš¦ƒşÿÿÿÿ8íŒîìÇ1
+V
+java:S1874¾"3Remove this use of "NetworkInfo"; it is deprecated.(£Ëøüüÿÿÿÿ8ÂÉ±éÇ1
+_
+java:S1874¾"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(£Ëøüüÿÿÿÿ8ÂÉ±éÇ1
+V
+java:S1874¿"3Remove this use of "isConnected"; it is deprecated.(ûæ¤ñÿÿÿÿÿ8ÃÉ±éÇ1
+h
+java:S1117Ä"ERename "sharedPreferences" which hides the field declared at line 23.(ßš¦ƒşÿÿÿÿ8Ó‹òìÇ1
+^
+java:S1128"ARemove this unused import 'android.content.Context.MODE_PRIVATE'.(–Ù¶8ĞñìÇ1
+Z
+java:S1144»"7Remove this unused private "isNetworkAvailable" method.(•–‰÷ÿÿÿÿÿ8ÆÉ±éÇ1

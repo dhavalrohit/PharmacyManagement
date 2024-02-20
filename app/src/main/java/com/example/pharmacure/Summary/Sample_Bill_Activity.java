@@ -48,7 +48,7 @@ public class Sample_Bill_Activity extends AppCompatActivity {
         mAuth = Firebase_factory.getFirebaseAuth_Instance();
         uid = Firebase_factory.getfbUserId();
         du = Firebase_factory.getdatabaseRef().child("Users").child(uid).child("info");
-        du.keepSynced(true);
+        //du.keepSynced(true);
 
         du.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override

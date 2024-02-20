@@ -102,7 +102,7 @@ public class MyAdapterMedicine extends RecyclerView.Adapter<MyViewHolderMedicine
                 uid = mAuth.getCurrentUser().getUid();
                 db = FirebaseDatabase.getInstance().getReference().child("Users").child(uid).child("Inventory")
                         .child("productList").child(models.get(position).getProductID());
-                db.keepSynced(true);
+                //db.keepSynced(true);
                 db.addListenerForSingleValueEvent(new ValueEventListener() {
 
 

@@ -19,6 +19,7 @@ import com.example.pharmacure.Bill.salesBill.Bill_Activity;
 import com.example.pharmacure.Bill.taxBill.taxBill_Activity;
 import com.example.pharmacure.R;
 import com.example.pharmacure.Model.TransactionModel;
+import com.example.pharmacure.sample.sampleactivity;
 import com.factory.Firebase_factory;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -36,7 +37,7 @@ public class MyAdapterTransactions extends RecyclerView.Adapter<MyViewHolderTran
 
     String uid;
     ArrayList<TransactionModel> models, filterList;
-    DatabaseReference db;
+    DatabaseReference db,dbcount;
     private FirebaseAuth mAuth;
     CustomFilterTransaction filter;
     public static String discper="";
@@ -67,23 +68,32 @@ public class MyAdapterTransactions extends RecyclerView.Adapter<MyViewHolderTran
     @Override
     public void onBindViewHolder(@NonNull final MyViewHolderTrans holder, @SuppressLint("RecyclerView") final int position) {
 
+
+
+
         holder.transaction.setText("Bill ID:"+models.get(holder.getAdapterPosition()).getBill_ID());
         holder.date.setText(models.get(holder.getAdapterPosition()).getDate());
         holder.amount.setText(models.get(holder.getAdapterPosition()).getTotal_bill_amount());
         holder.customerName.setText(models.get(holder.getAdapterPosition()).getPatientName());
+
+        holder.totalitems.setText((models.get(holder.getAdapterPosition()).getBillItemsList().size()-1)+"");
 
         mAuth= Firebase_factory.getFirebaseAuth_Instance();
         uid=Firebase_factory.getfbUserId();
         db= Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Sales").child("salesBill")
                 .child("billList")
                 .child(models.get(position).getBill_ID());
-        db.keepSynced(true);
+
+
 
 
 
         holder.cv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+            /*    Intent i=new Intent(con, sampleactivity.class);
+                con.startActivity(i);*/
 
 
                 Intent i = new Intent(con, taxBill_Activity.class);

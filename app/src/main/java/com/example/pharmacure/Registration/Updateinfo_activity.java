@@ -3,6 +3,9 @@ package com.example.pharmacure.Registration;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -52,10 +55,20 @@ public class Updateinfo_activity extends AppCompatActivity {
         updatebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if (isNetworkAvailable()){
                     update_details();
                     Toast.makeText(getBaseContext(),"Information Updated Successfully",Toast.LENGTH_SHORT);
-
                     finish();
+
+                }else {
+                    Toast.makeText(getBaseContext(), "Internet Connection Not Avaliable",
+                            Toast.LENGTH_SHORT).show();
+
+
+                }
+
+
             }
         });
 
@@ -143,7 +156,7 @@ public class Updateinfo_activity extends AppCompatActivity {
 
 
         DatabaseReference db= FirebaseDatabase.getInstance().getReference().child("Users").child(uid).child("info");
-        db.keepSynced(true);
+        //db.keepSynced(true);
         db.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -210,5 +223,13 @@ public class Updateinfo_activity extends AppCompatActivity {
         else
             return true;
     }
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
+
 
 }

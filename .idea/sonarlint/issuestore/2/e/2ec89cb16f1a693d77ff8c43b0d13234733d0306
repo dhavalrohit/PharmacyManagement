@@ -1,0 +1,19 @@
+
+o
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(õ“¬¬
+v
+java:S1488O"[Immediately return this expression instead of assigning it to the temporary variable "str".(òæôŒøÿÿÿÿ
+m
+java:S1104"WMake docselected a static final constant or non-public and provide accessors if needed.(Û®³í
+G
+java:S1444"1Make this "public static docselected" field final(Û®³í
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å»‚É
+R
+java:S2589h"7Remove this expression which always evaluates to "true"(ëí£™ÿÿÿÿÿ
+K
+java:S1659"0Declare "textViewResourceId" on a separate line.(¿ô…ºýÿÿÿÿ
+a
+java:S1659"FDeclare "tempItems" and all following declarations on a separate line.(Ìÿ˜Ãøÿÿÿÿ
+Q	java:S125="<This block of commented-out lines of code should be removed.(çà§š
+P
+java:S1161F":Add the "@Override" annotation above this method signature(½þ­è

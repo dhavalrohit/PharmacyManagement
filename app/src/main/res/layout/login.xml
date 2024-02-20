@@ -28,8 +28,7 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true"
-        >
+        android:fillViewport="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/layout"
@@ -122,7 +121,6 @@
                     android:inputType="textEmailAddress"
                     android:isScrollContainer="true"
                     android:lines="1"
-
                     android:maxLines="1"
                     android:paddingStart="@dimen/space_16"
                     android:paddingEnd="@dimen/space_16"
@@ -164,8 +162,18 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/email" />
+                <View
+                    android:id="@+id/view10"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:background="@color/md_grey_300"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/password" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
             <Button
                 android:id="@+id/loginButton"

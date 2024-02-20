@@ -19,6 +19,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.example.pharmacure.MainActivity;
 import com.example.pharmacure.Utils.DecimalDigitsInputFilter;
 import com.example.pharmacure.Model.MedicineModel;
 import com.example.pharmacure.R;
@@ -145,6 +146,7 @@ public class NewItem_Activity extends AppCompatActivity implements View.OnClickL
         exexpdate.setOnClickListener(this);
 
         generatedproductId=Firebase_factory_inventory.getproductid();
+        generatedproductId= ItemsFragement.generatedproductid;
         System.out.println("generated product id:"+generatedproductId);
 
         exproductID.setText(generatedproductId);

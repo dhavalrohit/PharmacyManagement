@@ -22,6 +22,7 @@ import com.example.pharmacure.MainActivity;
 import com.example.pharmacure.Model.MedicineModel;
 import com.example.pharmacure.R;
 import com.factory.Firebase_factory;
+import com.factory.Firebase_factory_inventory;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -45,6 +46,7 @@ public class ItemsFragement extends Fragment implements SearchView.OnQueryTextLi
     ArrayList<MedicineModel> models = new ArrayList<>();
     boolean menuqty = false, menuexp = false;
     MenuItem orderN, orderQ, orderE;
+    static String generatedproductid;
 
     String uid;
     private DatabaseReference db;
@@ -66,10 +68,12 @@ public class ItemsFragement extends Fragment implements SearchView.OnQueryTextLi
         layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
 
+        generatedproductid=MainActivity.productid;
+        generatedproductid= Firebase_factory_inventory.getproductid();
         mAuth = Firebase_factory.getFirebaseAuth_Instance();
         uid = Firebase_factory.getfbUserId();
         db = Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Inventory");
-        db.keepSynced(true);
+        //db.keepSynced(true);
 
         return itemview;
 

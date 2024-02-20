@@ -65,7 +65,7 @@ public class TransactionFragement extends Fragment implements SearchView.OnQuery
         uid=Firebase_factory.getfbUserId();
         db= Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Sales").child("salesBill");
 
-        db.keepSynced(true);
+
 
 
         return transactionview;
@@ -180,5 +180,7 @@ public class TransactionFragement extends Fragment implements SearchView.OnQuery
         });
         return models;
     }
+
+
 
 }

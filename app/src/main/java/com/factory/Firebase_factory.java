@@ -10,10 +10,12 @@ public class Firebase_factory {
 
     public static FirebaseDatabase getfbDatabase_instance(){
         FirebaseDatabase database=FirebaseDatabase.getInstance();
+
         return database;
     }
 
     public static DatabaseReference getdatabaseRef(){
+
         DatabaseReference databaseref=FirebaseDatabase.getInstance().getReference();
         databaseref.keepSynced(true);
         return databaseref;

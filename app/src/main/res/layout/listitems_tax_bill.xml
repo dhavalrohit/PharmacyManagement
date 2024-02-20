@@ -1,257 +1,181 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent">
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_height="match_parent"
             android:gravity="center"
-            android:layout_width="15dp"
-            android:layout_weight="0"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/leftrightbottomborder"
             android:text="S."
+            android:textSize="10sp"
             android:id="@+id/serialNo_bill"/>
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
 
 
         <TextView
-            android:layout_width="105dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:layout_weight="2"
+            android:layout_weight="3"
             android:textSize="10sp"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:text="Description"
             android:id="@+id/productnametaxbill" />
 
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
-
 
         <TextView
-            android:layout_width="55dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="HSN"
             android:textAlignment="center"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:id="@+id/productnamehsntaxbill"
             android:layout_weight="1"/>
 
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
 
 
         <TextView
-            android:layout_width="55dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="BatchNo"
             android:textAlignment="center"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:id="@+id/productbatchnotaxbill"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
+            android:layout_weight="1"/>
 
 
         <TextView
-            android:layout_width="45dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="Exp"
             android:textSize="12sp"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:textAlignment="center"
             android:id="@+id/productexptaxbill"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
+            android:layout_weight="1"/>
 
 
         <TextView
-            android:layout_width="35dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="Unit"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:textAlignment="center"
             android:id="@+id/productunittaxbill"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
+            android:layout_weight="1"/>
 
 
         <TextView
             android:id="@+id/productmrptaxbill"
-            android:layout_width="55dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.5"
-            android:background="@drawable/borderbottom"
+            android:layout_weight="1"
+            android:background="@drawable/rightbottomborder"
             android:text="MRP"
             android:textAlignment="center" />
 
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
 
         <TextView
-            android:layout_width="35dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="Qty"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:textAlignment="center"
             android:id="@+id/productqtytaxbill"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
+            android:layout_weight="1"/>
 
 
         <TextView
-            android:layout_width="55dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="Rate/Unit"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:textAlignment="center"
             android:id="@+id/productratetaxbill"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
+            android:layout_weight="1"/>
 
 
         <TextView
-            android:layout_width="55dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="Disc%"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:textAlignment="center"
             android:id="@+id/productdisctaxbill"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
+            android:layout_weight="1"/>
 
 
         <TextView
-            android:layout_width="55dp"
-            android:background="@drawable/borderbottom"
+            android:layout_width="0dp"
+            android:background="@drawable/rightbottomborder"
             android:layout_height="match_parent"
             android:text="Taxable Value"
             android:textAlignment="center"
             android:id="@+id/producttaxablevaluebill"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
+            android:layout_weight="1"/>
 
 
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="sgst rate"
             android:textAlignment="center"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:id="@+id/productsgstratetaxbill"
-            android:layout_weight="0.5"/>
+            android:layout_weight="1"/>
 
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
 
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="sgst Value"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:textAlignment="center"
             android:id="@+id/productsgstvaluetaxbill"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
+            android:layout_weight="1"/>
 
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="cgst rate"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:textAlignment="center"
             android:id="@+id/productcgstratetaxbill"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
-
+            android:layout_weight="1"/>
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="cgst Value"
-            android:background="@drawable/borderbottom"
+            android:background="@drawable/rightbottomborder"
             android:textAlignment="center"
             android:id="@+id/productcgstvaluetaxbill"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
+            android:layout_weight="1"/>
 
 
         <TextView
-            android:layout_width="55dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="Amount"
             android:background="@drawable/borderbottom"
             android:textAlignment="center"
             android:textStyle="bold"
             android:id="@+id/productamount"
-            android:layout_weight="0.5"/>
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/black"/>
+            android:layout_weight="1"/>
 
 
     </LinearLayout>

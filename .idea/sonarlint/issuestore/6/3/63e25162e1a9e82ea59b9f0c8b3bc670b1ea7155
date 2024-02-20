@@ -1,0 +1,12 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è‹µÆ8…©ö€É1
+b
+java:S2259I"@A "NullPointerException" could be thrown; "in" is nullable here.(€¶º‡ıÿÿÿÿ8ˆ¬ö€É1
+b
+java:S2259J"@A "NullPointerException" could be thrown; "op" is nullable here.(±Ë®şÿÿÿÿ8ˆ¬ö€É1
+k
+java:S20954"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(¡é±”8äõ÷€É1
+L
+java:S20931"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8®¬ö€É1
+\
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8®¬ö€É1

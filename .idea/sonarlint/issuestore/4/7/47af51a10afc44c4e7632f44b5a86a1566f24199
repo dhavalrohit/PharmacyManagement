@@ -1,0 +1,10 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ξ®£°ψÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬Υ”ƒύÿÿÿÿ
+j
+java:S1450"TRemove the "mAuth" field and declare it as a local variable in the relevant methods.(ªΠ”’
+X	java:S125'"<This block of commented-out lines of code should be removed.(¦Ώ–λ8λυΪ™Η1
+—
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Τ°¤¦
+?
+java:S1068")Remove this unused "mAuth" private field.(ªΠ”’

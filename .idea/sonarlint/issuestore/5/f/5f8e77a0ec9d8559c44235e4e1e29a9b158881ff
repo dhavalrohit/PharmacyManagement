@@ -1,0 +1,33 @@
+
+h
+java:S1192_"FDefine a constant instead of duplicating this literal "Users" 3 times.(º˜Éâûÿÿÿÿ8ÿ—ÆéÇ1
+n
+java:S1192¹"PDefine a constant instead of duplicating this literal "Cannot be Empty" 7 times.(‹í‰ö8ş—ÆéÇ1
+C
+java:S16047"(Make this anonymous inner class a lambda(Ñ¥§ûÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ìĞ˜ùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›äã
+c
+java:S1659"HDeclare "txstorename" and all following declarations on a separate line.(ŞÅéúÿÿÿÿÿ
+]
+java:S1659"BDeclare "sname" and all following declarations on a separate line.(³‚«œşÿÿÿÿ
+o	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í««Úüÿÿÿÿ8ÁÆéÇ1
+
+java:S1186r"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8ÁÆéÇ1
+Ÿ
+java:S1186ˆ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8ÊÁÆéÇ1
+h
+java:S1858ƒ"J"message" is already a string, there's no need to call "toString()" on it.(Œ‚Éª8ÎÁÆéÇ1
+Y	java:S125Ÿ"<This block of commented-out lines of code should be removed.(¦¿–ë8ÚÁÆéÇ1
+Ÿ
+java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8ÛÁÆéÇ1
+u
+java:S3776µ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ø¬Ú±ıÿÿÿÿ8éÁÆéÇ1
+_
+java:S1126İ"AReplace this if-then-else statement by a single return statement.(„Í“½8ğÂÆéÇ1
+V
+java:S1874æ"3Remove this use of "NetworkInfo"; it is deprecated.(£Ëøüüÿÿÿÿ8øÂÆéÇ1
+_
+java:S1874æ"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(£Ëøüüÿÿÿÿ8ùÂÆéÇ1
+V
+java:S1874ç"3Remove this use of "isConnected"; it is deprecated.(ûæ¤ñÿÿÿÿÿ8úÂÆéÇ1

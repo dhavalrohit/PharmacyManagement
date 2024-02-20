@@ -3,7 +3,11 @@ package com.example.pharmacure.Registration;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -24,15 +28,10 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class Sign_up_Activity extends AppCompatActivity {
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-        setContentView(R.layout.activity_sign_up);
+         setContentView(R.layout.activity_sign_up);
 
         checkuser_logged();
 
@@ -42,14 +41,21 @@ public class Sign_up_Activity extends AppCompatActivity {
         signupbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                firebase_signup();
+
+                if (isNetworkAvailable()){
+                    firebase_signup();
+                }else {
+                    Toast.makeText(getBaseContext(), "Internet Connection Not Avaliable",
+                            Toast.LENGTH_SHORT).show();
+
+                }
             }
         });
 
         login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent loginintent=new Intent(Sign_up_Activity.this, Login_activity.class);
+                Intent loginintent=new Intent(Sign_up_Activity.this, Loginactivity_new.class);
                 startActivity(loginintent);
             }
         });
@@ -64,6 +70,7 @@ public class Sign_up_Activity extends AppCompatActivity {
         Intent loginintent=new Intent(Sign_up_Activity.this, RegistrationActivity.class);
         startActivity(loginintent);
     }
+
 
 
     public void firebase_signup(){
@@ -108,13 +115,13 @@ public class Sign_up_Activity extends AppCompatActivity {
                         }
                     }
                 });
-}
+    }
     public void checkuser_logged(){
         FirebaseAuth mauth;
         mauth=FirebaseAuth.getInstance();
         if (mauth.getCurrentUser()!=null){
-
-
+            Toast.makeText(getBaseContext(), "User Logged In Automatically",
+                    Toast.LENGTH_SHORT).show();
 
             startActivity(new Intent(Sign_up_Activity.this, MainActivity.class));
             finish();
@@ -123,4 +130,70 @@ public class Sign_up_Activity extends AppCompatActivity {
         }
 
     }
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
+
+
+
+    /*@Override//added on 20/12/23
+    protected void onRestart() {
+        super.onRestart();
+        Intent ii=new Intent(Sign_up_Activity.this,Loginactivity_new.class);
+        startActivity(ii);
+    }*/
+
+
+
+
+
+    protected  void saveExitTime() {
+        long currentTime = System.currentTimeMillis();
+        SharedPreferences sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putLong("ExitTimeSignupActivity", currentTime);
+        editor.apply();
+    }
+
+   /* @Override
+    protected void onRestart() {
+        super.onRestart();
+        if (checkTimeDifference()){
+
+        }else {
+            Toast.makeText(getBaseContext(), "Session Timeout,Login To Continue",
+                    Toast.LENGTH_SHORT).show();
+
+            Intent ii=new Intent(Sign_up_Activity.this, Login_activity.class);
+            startActivity(ii);
+
+        }
+    }*/
+
+    /*@Override
+    protected void onStart() {
+        super.onStart();
+        Intent ii=new Intent(Sign_up_Activity.this,Loginactivity_new.class);
+        startActivity(ii);
+
+
+    }*/
+
+
+
+    protected  boolean checkTimeDifference() {
+        SharedPreferences sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE);
+
+        long exitTime = sharedPreferences.getLong("ExitTimeSignupActivity", 0);
+        long currentTime = System.currentTimeMillis();
+        long timeDifference = currentTime - exitTime;
+
+        return exitTime != 0 && timeDifference <= 2000;
+    }
+
+
 }

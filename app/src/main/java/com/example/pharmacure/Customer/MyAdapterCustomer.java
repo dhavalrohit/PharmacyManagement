@@ -121,7 +121,7 @@ public class MyAdapterCustomer extends RecyclerView.Adapter<MyViewHolderCustomer
                 uid = Firebase_factory.getfbUserId();
                 db = Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Customer")
                         .child("Customers").child(models.get(holder.getAdapterPosition()).getCustomerID());
-                db.keepSynced(true);
+                //db.keepSynced(true);
 
                 db.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
@@ -175,7 +175,7 @@ public class MyAdapterCustomer extends RecyclerView.Adapter<MyViewHolderCustomer
                 uid = Firebase_factory.getfbUserId();
                 db = Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Customer")
                         .child("Customers").child(models.get(position).getCustomerID());
-                db.keepSynced(true);
+                //db.keepSynced(true);
                 db.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(final DataSnapshot dataSnapshot) {

@@ -52,7 +52,7 @@ public class Summary_Fragement extends Fragment {
         mAuth = Firebase_factory.getFirebaseAuth_Instance();
         uid =Firebase_factory.getfbUserId();
         du = Firebase_factory.getdatabaseRef().child("Users").child(uid);
-        du.keepSynced(true);
+        //du.keepSynced(true);
           return view;
 
     }

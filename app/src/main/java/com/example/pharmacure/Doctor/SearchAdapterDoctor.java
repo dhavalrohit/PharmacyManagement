@@ -64,6 +64,7 @@ public class SearchAdapterDoctor extends ArrayAdapter<DoctorModel> {
 
 
 
+
         return view;
     }
     public Filter getFilter() {

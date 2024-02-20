@@ -44,8 +44,6 @@ public class HomePageFragment extends Fragment {
         String uid=Firebase_factory.getfbUserId();
 
          db= Firebase_factory.getdatabaseRef().child("Users").child(uid);
-
-
         return homeview;
     }
 
@@ -73,4 +71,5 @@ public class HomePageFragment extends Fragment {
         });
         MainActivity.floatingbtn.hide();
     }
+
 }

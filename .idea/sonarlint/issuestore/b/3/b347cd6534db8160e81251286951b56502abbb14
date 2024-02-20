@@ -19,11 +19,14 @@ M
 java:S18744"7Remove this use of "FLAG_FULLSCREEN"; it is deprecated.(­‰ý›
 F
 java:S1481N"+Remove this unused "billId" local variable.(ÑÔ˜®þÿÿÿÿ
+]	java:S125X"<This block of commented-out lines of code should be removed.(®Ê¬Äúÿÿÿÿ8‚ùØ™Ç1
 —
 java:S1186k"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
 Q	java:S125p"<This block of commented-out lines of code should be removed.(ë·ª¯
 R	java:S125ž"<This block of commented-out lines of code should be removed.(ë·ª¯
 ˜
 java:S1186Ð"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+D
+java:S1068"'Remove this unused "dbs" private field.(À„§Í8¡ùØ™Ç1
 ?
 java:S1068")Remove this unused "mAuth" private field.(ªÐ”’

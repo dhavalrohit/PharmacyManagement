@@ -65,7 +65,7 @@ public class CustomerFragement extends Fragment implements SearchView.OnQueryTex
         mAuth = Firebase_factory.getFirebaseAuth_Instance();
         uid = Firebase_factory.getfbUserId();
         db = Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Customer");
-        db.keepSynced(true);
+        //db.keepSynced(true);
 
         return view;
     }

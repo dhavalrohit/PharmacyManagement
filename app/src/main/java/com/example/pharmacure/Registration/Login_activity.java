@@ -3,16 +3,24 @@ package com.example.pharmacure.Registration;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.pharmacure.MainActivity;
 import com.example.pharmacure.R;
+import com.example.pharmacure.Utils.Utility;
+import com.example.pharmacure.captcha.captchamodel;
+import com.example.pharmacure.captcha.captchamodel;
 import com.factory.Firebase_factory;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -32,12 +40,24 @@ public class Login_activity extends AppCompatActivity {
 
 
 
-       loginbtn.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View v) {
-            firebaselogin();
-           }
-       });
+
+        loginbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (isNetworkAvailable()){
+                    firebaselogin();
+
+                }else {
+                    Toast.makeText(getBaseContext(), "Internet Connection Not Avaliable",
+                            Toast.LENGTH_SHORT).show();
+                }
+
+
+            }
+        });
+
+
     }
 
     public void starthomepageactivity(){
@@ -49,7 +69,7 @@ public class Login_activity extends AppCompatActivity {
 
     public void firebaselogin(){
         // ...
-// Initialize Firebase Auth
+        // Initialize Firebase Auth
 
 
         EditText emailtxt=findViewById(R.id.email);
@@ -66,7 +86,7 @@ public class Login_activity extends AppCompatActivity {
                             Log.d("My App", "signInWithEmail:success");
                             FirebaseUser user = Firebase_factory.getFirebaseAuth_Instance().getCurrentUser();
 
-                             uid=user.getUid();
+                            uid=user.getUid();
                             Toast.makeText(getBaseContext(), uid+"",
                                     Toast.LENGTH_SHORT).show();
 
@@ -89,5 +109,13 @@ public class Login_activity extends AppCompatActivity {
 
 
     }
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
+
+
 
 }

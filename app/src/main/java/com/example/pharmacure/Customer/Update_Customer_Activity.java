@@ -73,7 +73,7 @@ public class Update_Customer_Activity extends AppCompatActivity implements View.
         uid = Firebase_factory.getfbUserId();
         du = Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Customer").child("Customers")
                 .child(s);
-        du.keepSynced(true);
+        //du.keepSynced(true);
         du.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {

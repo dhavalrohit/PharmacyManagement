@@ -2,10 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name="androidx.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,17 +19,61 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".Bill.taxBills.tax_billActivity"
+            android:name=".Utils.QRScanner"
+            android:exported="false" />
+        <activity
+            android:name=".Utils.LoginQR"
+            android:exported="false" />
+        <activity
+            android:name=".Utils.testocr.testactivitynew"
+            android:exported="false" />
+        <activity
+            android:name=".Utils.testocr.testactivity_firebase"
+            android:exported="false" />
+        <activity
+            android:name=".Utils.testocr.test_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Utils.qrlogin.qractivitymain"
+            android:exported="false" />
+        <activity
+            android:name=".Utils.QrLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Registration.Loginactivity_new"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".captcha.activitycaptcha"
+            android:exported="false" />
+        <activity
+            android:name=".sample.sampleactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bill.taxBill.taxBill_Activity"
             android:exported="false" />
         <activity
             android:name=".Doctor.Doctor_Activity"
             android:exported="false" />
-        <activity
-            android:name=".Bill.taxBill.taxBill_Activity"
-            android:exported="false"
-            android:screenOrientation="landscape" />
         <activity
             android:name=".Summary.Log_Activity"
             android:exported="false" />
@@ -50,10 +99,6 @@
             android:name=".Inventory.Update_Item_Activity"
             android:exported="false" />
         <activity
-            android:name=".updateItem_Activity"
-            android:exported="false"
-            android:label="@string/title_activity_update_item" />
-        <activity
             android:name=".Inventory.NewItem_Activity"
             android:exported="false" />
         <activity
@@ -65,9 +110,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Inventory.ItemsFragement"
-            android:exported="false" />
-        <activity
-            android:name=".UpdateInfo"
             android:exported="false" />
         <activity
             android:name=".Registration.RegistrationActivity"
@@ -86,13 +128,7 @@
             android:exported="false" />
         <activity
             android:name=".Registration.Sign_up_Activity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

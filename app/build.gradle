@@ -17,6 +17,10 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    packagingOptions{
+        resources.excludes.add("META-INF/*")
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -44,6 +48,43 @@ dependencies {
     implementation libs.navigation.fragment
     implementation libs.navigation.ui
     implementation libs.androidx.gridlayout
+    implementation project(path: ':xml-to-pdf')
+    implementation 'com.google.android.recaptcha:recaptcha:18.4.0'
+    implementation 'com.google.android.gms:play-services-safetynet:18.0.1'
+    implementation libs.volley
+    implementation files('C:\\Users\\DELL\\AndroidStudioProjects\\pharmacure\\.idea\\libraries\\androidEasyCaptcha.jar')
+    // implementation 'com.github.Gkemon:Android-XML-to-PDF-Generator:2.6.8'
+    implementation "androidx.multidex:multidex:2.0.1"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    // https://mvnrepository.com/artifact/androidx.core/core
+    implementation 'androidx.core:core:1.0.1'
+    // https://mvnrepository.com/artifact/com.google.zxing/core
+    implementation 'com.google.zxing:core:3.3.2'
+// https://mvnrepository.com/artifact/com.google.zxing/javase
+    implementation 'com.google.zxing:javase:3.3.2'
+
+    // https://mvnrepository.com/artifact/com.backendless/backendless
+    // https://mvnrepository.com/artifact/io.socket/socket.io-client
+    implementation group: 'io.socket', name: 'socket.io-client', version: '1.0.0'
+
+    // https://mvnrepository.com/artifact/com.backendless/backendless
+    implementation group: 'com.backendless', name: 'backendless', version: '5.0.+'
+    implementation 'com.itextpdf:itext7-core:7.1.16'
+    implementation 'me.dm7.barcodescanner:zxing:1.8.4'
+
+    implementation "com.google.firebase:firebase-functions:20.4.0"
+    implementation"com.google.code.gson:gson:2.8.6"
+    implementation 'com.google.cloud:google-cloud-vision:3.30.0'
+
+    implementation 'io.grpc:grpc-okhttp:1.60.0'
+
+    implementation 'com.journeyapps:zxing-android-embedded:4.1.0'
+    implementation 'com.koushikdutta.ion:ion:2.2.1'
+    implementation 'org.java-websocket:Java-WebSocket:1.5.1'
+
+
+    implementation 'io.grpc:grpc-stub:1.60.0'
+    compileOnly 'org.apache.tomcat:annotations-api:6.0.53' // necessary for Java 9+
 
 
     testImplementation libs.junit

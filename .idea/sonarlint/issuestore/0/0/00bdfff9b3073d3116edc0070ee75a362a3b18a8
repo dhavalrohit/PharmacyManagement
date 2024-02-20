@@ -1,0 +1,19 @@
+
+g	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ªºéÇ1
+C
+java:S1604$"(Make this anonymous inner class a lambda(ö´·‰şÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›äã
+S
+java:S1854!"6Remove this useless assignment to local variable "db".(òö‘Å8¿æß™Ç1
+D
+java:S1481!"'Remove this unused "db" local variable.(òö‘Å8¿æß™Ç1
+X	java:S125""<This block of commented-out lines of code should be removed.(¦¿–ë8¿æß™Ç1
+{
+java:S2142-"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8­«ºéÇ1
+]	java:S125U"<This block of commented-out lines of code should be removed.(‘Ğ—Üşÿÿÿÿ8Å¤à™Ç1
+U
+java:S1874x"3Remove this use of "NetworkInfo"; it is deprecated.(£Ëøüüÿÿÿÿ8Ü›¸éÇ1
+^
+java:S1874x"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(£Ëøüüÿÿÿÿ8İ›¸éÇ1
+U
+java:S1874y"3Remove this use of "isConnected"; it is deprecated.(ûæ¤ñÿÿÿÿÿ8Ş›¸éÇ1

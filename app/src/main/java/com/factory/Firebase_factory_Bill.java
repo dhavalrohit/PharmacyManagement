@@ -12,6 +12,7 @@ import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
@@ -52,6 +53,7 @@ public class Firebase_factory_Bill {
         //String generatedsalesBillID=Firebase_factory_Bill.getBillID();
         System.out.println("Bill List Model Size:"+billitemslist.size());
         DatabaseReference addsalesref = Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Sales").child("salesBill").child("billList").child(billId);
+
         addsalesref.keepSynced(true);
 
         HashMap<String, Object> billdata=new HashMap<>();
@@ -106,7 +108,9 @@ public class Firebase_factory_Bill {
 
     public static String getBillID(){
         String uid = Firebase_factory.getfbUserId();
+
         DatabaseReference salesBillref = Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Sales").child("salesBill").child("billList");
+        //salesBillref.getDatabase().setPersistenceEnabled(true);
         salesBillref.keepSynced(true);
         salesBillref.addValueEventListener(new ValueEventListener() {
             @Override
@@ -123,7 +127,12 @@ public class Firebase_factory_Bill {
         });
 
             salesbillID=String.valueOf(lastBillID+1);
-            return salesbillID;
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        return salesbillID;
 
     }
 

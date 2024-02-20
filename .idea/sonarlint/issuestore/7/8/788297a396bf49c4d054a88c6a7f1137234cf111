@@ -1,0 +1,48 @@
+
+Œ
+java:S1319Ç"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ãñÌ€ıÿÿÿÿ
+C
+java:S1604L"(Make this anonymous inner class a lambda(³ú­®şÿÿÿÿ
+?
+java:S1604€"(Make this anonymous inner class a lambda(Îº¬ê
+?
+java:S1604"(Make this anonymous inner class a lambda(Îº¬ê
+?
+java:S1604°"(Make this anonymous inner class a lambda(Îº¬ê
+?
+java:S1604»"(Make this anonymous inner class a lambda(Îº¬ê
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬Õ”ƒıÿÿÿÿ
+w
+java:S1450."\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(Çòçöûÿÿÿÿ
+j
+java:S1450*"TRemove the "mAuth" field and declare it as a local variable in the relevant methods.(ªĞ”’
+Q
+java:S26968"6Make the enclosing method "static" or remove this set.(ŠĞûóøÿÿÿÿ
+T
+java:S18749"9Remove this use of "setHasOptionsMenu"; it is deprecated.(Ï™ñşÿÿÿÿ
+X	java:S125D"<This block of commented-out lines of code should be removed.(¦¿–ë8é„Ú™Ç1
+_
+java:S1874["JDon't override a deprecated method or explicitly mark it as "@Deprecated".(å°¥
+P
+java:S1874f"5Remove this use of "getActionView"; it is deprecated.(€½«İÿÿÿÿÿ
+W
+java:S1874i"ARemove this use of "setOnActionExpandListener"; it is deprecated.(‰Ç‡À
+e
+java:S1874{"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(èëÔíÿÿÿÿÿ
+Y
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(²–ëùÿÿÿÿ
+Z
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(²–ëùÿÿÿÿ
+T
+java:S1874›"=Remove this use of "onOptionsItemSelected"; it is deprecated.(Ü°ı‡
+c	java:S100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô×Œm
+Z
+java:S1155¯">Use isEmpty() to check whether the collection is empty or not.(²–ëùÿÿÿÿ
+Z
+java:S1155º">Use isEmpty() to check whether the collection is empty or not.(²–ëùÿÿÿÿ
+˜
+java:S1186Ş"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹²æµ
+˜
+java:S1186ã"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+?
+java:S1068*")Remove this unused "mAuth" private field.(ªĞ”’

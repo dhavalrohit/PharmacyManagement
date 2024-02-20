@@ -1,0 +1,30 @@
+
+L
+java:S1066x"/Merge this if statement with the enclosing one.(æáÛª8¸‘”³É1
+Q
+java:S1066}"/Merge this if statement with the enclosing one.(‹à‚úıÿÿÿÿ8¹‘”³É1
+M
+java:S1066ƒ"/Merge this if statement with the enclosing one.(æáÛª8º‘”³É1
+
+java:S1319."lThe type of "taxbillmodel" should be an interface such as "List" rather than the implementation "ArrayList".(¹‘øÿúÿÿÿÿ8º‘”³É1
+{
+java:S1104!"YMake totalquantity a static final constant or non-public and provide accessors if needed.(ßŠ×ôùÿÿÿÿ8½‘”³É1
+t
+java:S1104""WMake setquantity a static final constant or non-public and provide accessors if needed.(¥íª¿8½‘”³É1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(èÌ‹8¿‘”³É1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚ö®×üÿÿÿÿ8Å‘”³É1
+^
+java:S16599"ADeclare "unit" and all following declarations on a separate line.(Äè¬8ô’”³É1
+\
+java:S1854¨"9Remove this useless assignment to local variable "value".(Ú ±…şÿÿÿÿ8ü’”³É1
+N
+java:S1905B",Remove this unnecessary cast to "BillModel".(””ò‘ûÿÿÿÿ8‰“”³É1
+l
+java:S3252E"OUse static access with "android.content.Context" for "LAYOUT_INFLATER_SERVICE".(©šÌÒ8‹“”³É1
+M	java:S106†"+Replace this use of System.out by a logger.(Øë´àüÿÿÿÿ8Ï“”³É1
+Y	java:S125›"<This block of commented-out lines of code should be removed.(ÃİêÏ8ì“”³É1
+^	java:S125¢"<This block of commented-out lines of code should be removed.(ø«“²øÿÿÿÿ8Œ””³É1
+M
+java:S1481¨"*Remove this unused "value" local variable.(Ú ±…şÿÿÿÿ8””³É1
+Y	java:S125ª"<This block of commented-out lines of code should be removed.(œéé–8””³É1
+^	java:S125¿"<This block of commented-out lines of code should be removed.(÷Ğ´‚ûÿÿÿÿ8¾””³É1

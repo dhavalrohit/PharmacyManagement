@@ -1,0 +1,37 @@
+
+E
+java:S1604E"(Make this anonymous inner class a lambda(ÅäÊ¡8¨ÈÜŠÉ1
+D
+java:S1604a"(Make this anonymous inner class a lambda(àşÏ%8¬ÈÜŠÉ1
+K
+java:S1604"(Make this anonymous inner class a lambda(¥íîŸÿÿÿÿÿ8¬ÈÜŠÉ1
+q
+java:S1104""OMake uid a static final constant or non-public and provide accessors if needed.(Ê¶È÷ıÿÿÿÿ8¼ÈÜŠÉ1
+n	java:S101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‰¸Å–úÿÿÿÿ8½ÈÜŠÉ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›äã8ÃÈÜŠÉ1
+}	java:S116-"\Rename this field "DefaultUnameValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î‹ûÿÿÿÿ8‘ÊÜŠÉ1
+v	java:S116."URename this field "UnameValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖŒÕ°ÿÿÿÿÿ8‘ÊÜŠÉ1
+€	java:S1160"_Rename this field "DefaultPasswordValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ü…ıÿÿÿÿ8‘ÊÜŠÉ1
+y	java:S1161"XRename this field "PasswordValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¥Æ¢øÿÿÿÿ8‘ÊÜŠÉ1
+C
+java:S1170-"!Make this final field static too.(Î‹ûÿÿÿÿ8¢ÊÜŠÉ1
+C
+java:S11700"!Make this final field static too.(­Ü…ıÿÿÿÿ8¢ÊÜŠÉ1
+L
+java:S1659'"*Declare "passwordtext" on a separate line.(äÆëƒùÿÿÿÿ8¦ÊÜŠÉ1
+]	java:S125@"<This block of commented-out lines of code should be removed.(ª¤ù®øÿÿÿÿ8ØÊÜŠÉ1
+]	java:S125e"<This block of commented-out lines of code should be removed.(ª¤ù®øÿÿÿÿ8ãÊÜŠÉ1
+V
+java:S1874´"3Remove this use of "NetworkInfo"; it is deprecated.(£Ëøüüÿÿÿÿ8‹ËÜŠÉ1
+_
+java:S1874´"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(£Ëøüüÿÿÿÿ8‹ËÜŠÉ1
+V
+java:S1874µ"3Remove this use of "isConnected"; it is deprecated.(ûæ¤ñÿÿÿÿÿ8ŒËÜŠÉ1
+_
+java:S1126¹"AReplace this if-then-else statement by a single return statement.(ÿìÅ£8ËÜŠÉ1
+M	java:S106É"+Replace this use of System.out by a logger.(œóÛÙşÿÿÿÿ8’ËÜŠÉ1
+M	java:S106Ê"+Replace this use of System.out by a logger.(Ó×Ñëıÿÿÿÿ8“ËÜŠÉ1
+H	java:S106Ú"+Replace this use of System.out by a logger.(´ÃÃØ8˜ËÜŠÉ1
+M	java:S106Û"+Replace this use of System.out by a logger.(Ò¶Âùşÿÿÿÿ8˜ËÜŠÉ1
+@
+java:S1128"Remove this duplicated import.(ºó´×ıÿÿÿÿ8ÿÁÎ²É1

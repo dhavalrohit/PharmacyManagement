@@ -2,7 +2,10 @@ package com.example.pharmacure.Registration;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,20 +30,32 @@ public class RegistrationActivity extends AppCompatActivity {
 
         Button regbtn=findViewById(R.id.btn_signup);
 
-        DatabaseReference db=Firebase_factory.getfbDatabase_instance().getReference().child("Users");
-        db.keepSynced(true);
+        DatabaseReference db=Firebase_factory.getdatabaseRef().child("Users");
+        //db.keepSynced(true);
 
         regbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                createdatabase();
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+
+                if (isNetworkAvailable()){
+
+                    createdatabase();
+                    try {
+                        Thread.sleep(500);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+                    finish();
+                    starthomepageactivity();
+
+
+                }else {
+                    Toast.makeText(getBaseContext(), "Internet Connection Not Avaliable",
+                            Toast.LENGTH_SHORT).show();
+
                 }
-                finish();
-                starthomepageactivity();
+
+
 
             }
         });
@@ -66,8 +81,8 @@ public class RegistrationActivity extends AppCompatActivity {
 
 
         String uid = Firebase_factory.getFirebaseAuth_Instance().getCurrentUser().getUid();
-        DatabaseReference du= Firebase_factory.getfbDatabase_instance().getReference().child("Users");
-        du.keepSynced(true);
+        DatabaseReference du= Firebase_factory.getdatabaseRef().child("Users");
+        //du.keepSynced(true);
         du.child(uid).child("info").child("name").setValue(ownernametxt.getText().toString());
         du.child(uid).child("info").child("storename").setValue(storenametxt.getText().toString());
         du.child(uid).child("info").child("tin").setValue(tinnumbertxt.getText().toString());
@@ -98,6 +113,12 @@ public class RegistrationActivity extends AppCompatActivity {
 
         Intent i=new Intent(RegistrationActivity.this, HomePageFragment.class);
         startActivity(i);
+    }
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
 }

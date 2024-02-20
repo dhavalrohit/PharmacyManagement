@@ -85,7 +85,7 @@ public class Bill_Activity extends AppCompatActivity {
         dbs=Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Sales")
                 .child("salesBill")
                 .child("billList").child(selectedbillID).child("billItemsList");
-        dbs.keepSynced(true);
+        //dbs.keepSynced(true);
         db=Firebase_factory.getdatabaseRef().child("Users").child(uid).child("info");
 
         di=Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Sales")

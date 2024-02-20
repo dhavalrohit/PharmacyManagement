@@ -13,7 +13,7 @@ import com.example.pharmacure.R;
 
 public class MyViewHolderTrans extends RecyclerView.ViewHolder {
 
-    TextView transaction,date,customerName,amount;
+    TextView transaction,date,customerName,amount,totalitems;
     ImageView deletebtn;
     LinearLayout gone;
     CardView cv;
@@ -26,6 +26,7 @@ public class MyViewHolderTrans extends RecyclerView.ViewHolder {
         date = (TextView) itemView.findViewById(R.id.transactiondate_cv);
         amount = (TextView) itemView.findViewById(R.id.money);
         customerName = (TextView) itemView.findViewById(R.id.transactioncard_custname);
+        totalitems=(TextView)itemview.findViewById(R.id.totalitemstext_cv) ;
 
         deletebtn = (ImageView) itemView.findViewById(R.id.transactioncard_deletebutton);
 

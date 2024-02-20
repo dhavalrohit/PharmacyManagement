@@ -79,7 +79,7 @@ ArrayList<DoctorModel> doctorslist=new ArrayList<>();
 
 
 
-        db.keepSynced(true);
+        //db.keepSynced(true);
 
 
         return addedDocotrView;

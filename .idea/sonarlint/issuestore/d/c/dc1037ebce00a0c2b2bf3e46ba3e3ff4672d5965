@@ -1,0 +1,34 @@
+
+J
+java:S16041"(Make this anonymous inner class a lambda(›®èæıÿÿÿÿ8„°Ç1
+J
+java:S1604a"(Make this anonymous inner class a lambda(›íÙıùÿÿÿÿ8„°Ç1
+K
+java:S1604"(Make this anonymous inner class a lambda(»â¹øÿÿÿÿ8„°Ç1
+K
+java:S1604¿"(Make this anonymous inner class a lambda(€Ÿéëşÿÿÿÿ8„°Ç1
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(§™ùùÿÿÿÿ
+k
+java:S1659"NDeclare "btnPrintMultiPage" and all following declarations on a separate line.(ÔÌ˜¯8¿±Ç1
+£
+java:S1186I"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”ÇÜ£øÿÿÿÿ8î±Ç1
+
+java:S1186N"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“¾¶Ğ8î±Ç1
+£
+java:S1186y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”ÇÜ£øÿÿÿÿ8²Ç1
+
+java:S1186~"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“¾¶Ğ8²Ç1
+¤
+java:S1186ª"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”ÇÜ£øÿÿÿÿ8²Ç1
+Ÿ
+java:S1186¯"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“¾¶Ğ8²Ç1
+¤
+java:S1186ã"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”ÇÜ£øÿÿÿÿ8¼²Ç1
+Ÿ
+java:S1186è"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“¾¶Ğ8¼²Ç1
+J
+java:S1602÷",Remove useless curly braces around statement(Öı˜‚8Ì²Ç1
+m
+java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œƒƒ©ùÿÿÿÿ8ë²Ç1
+X
+java:S1874"5Remove this use of "onBackPressed"; it is deprecated.(‘Ñàÿÿÿÿÿ8­«¡Ç1

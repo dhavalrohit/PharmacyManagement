@@ -1,0 +1,19 @@
+
+‹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(æ°Ú¸ùÿÿÿÿ
+ˆ
+java:S1319"mThe type of "billItemsList" should be an interface such as "List" rather than the implementation "ArrayList".(ÚÉæ¾üÿÿÿÿ
+‚
+java:S1319O"mThe type of "billItemsList" should be an interface such as "List" rather than the implementation "ArrayList".(´èğq
+k	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úîŒÿÿÿÿÿ
+k	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÑòƒúÿÿÿÿ
+e	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´èğq
+e	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´èğq
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³¡½È
+i	java:S116"ORename this field "Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÛÑ¬ùÿÿÿÿ
+v	java:S116"\Rename this field "total_bill_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¿­üùÿÿÿÿ
+l	java:S116"RRename this field "bill_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÕæâÿÿÿÿÿ
+h	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÁ¶€üÿÿÿÿ
+h	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úîŒÿÿÿÿÿ
+h	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªîÚÿùÿÿÿÿ
+h	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÑòƒúÿÿÿÿ

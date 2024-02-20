@@ -26,7 +26,20 @@
             android:id="@+id/nav_summary"
             android:icon="@drawable/summary"
             android:title="Summary" />
+        <item
+            android:id="@+id/nav_loginqr"
+            android:icon="@drawable/summary"
+            android:title="Test OCR" />
 
+        <item
+            android:id="@+id/qrlogin"
+            android:icon="@drawable/summary"
+            android:title="QR Login" />
+
+        <item
+            android:id="@+id/scanqr"
+            android:icon="@drawable/summary"
+            android:title="Scan Qr/Login" />
     </group>
 
     <item android:title="Communicate">

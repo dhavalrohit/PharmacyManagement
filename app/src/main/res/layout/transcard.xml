@@ -38,6 +38,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
+
+                    <TextView
+                        android:text="Total Items:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView8"
+                        android:layout_weight="1"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:text=""
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/totalitemstext_cv"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:textColor="#338822" />
+
+
                     <TextView
                         android:text="Date"
                         android:layout_width="match_parent"
@@ -52,7 +71,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/transactiondate_cv"
                         android:layout_weight="1"
-                        android:textSize="16sp"
+                        android:textSize="12sp"
                         android:textColor="#338822" />
                 </LinearLayout>
 

@@ -1,0 +1,46 @@
+
+g
+java:S1192ý"PDefine a constant instead of duplicating this literal "Cannot be Empty" 4 times.(ñÇò·
+C
+java:S1604m"(Make this anonymous inner class a lambda(áö¤Âùÿÿÿÿ
+?
+java:S1604—"(Make this anonymous inner class a lambda(œçÓ™
+?
+java:S1604¢"(Make this anonymous inner class a lambda(®ÎŽÄ
+g	java:S101""MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ê‚ôýýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬Õ”ƒýÿÿÿÿ
+]
+java:S1659$"BDeclare "iaddr" and all following declarations on a separate line.(áÆá‡ûÿÿÿÿ
+W
+java:S1659%"BDeclare "eaddr" and all following declarations on a separate line.(¯ô©
+^
+java:S1659&"CDeclare "mMonth" and all following declarations on a separate line.(Ý—Ûéþÿÿÿÿ
+j
+java:S1450)"TRemove the "mAuth" field and declare it as a local variable in the relevant methods.(ªÐ”’
+n
+java:S1450&"SRemove the "mDay" field and declare it as a local variable in the relevant methods.(Ý—Ûéþÿÿÿÿ
+p
+java:S1450&"URemove the "mMonth" field and declare it as a local variable in the relevant methods.(Ý—Ûéþÿÿÿÿ
+o
+java:S1450&"TRemove the "mYear" field and declare it as a local variable in the relevant methods.(Ý—Ûéþÿÿÿÿ
+]	java:S125L"<This block of commented-out lines of code should be removed.(‘Ð—Üþÿÿÿÿ8îÈÝ™Ç1
+—
+java:S1186]"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+˜
+java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚¯±à
+B
+java:S1172·"+Remove this unused method parameter "view".(Óæ£Ö
+˜
+java:S1186Ò"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Þ‰
+d	java:S100ß"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ñèã
+˜
+java:S1186ó"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+a
+java:S1858î"J"message" is already a string, there's no need to call "toString()" on it.(Œ‚Éª
+X
+java:S1126"AReplace this if-then-else statement by a single return statement.(„Í“½
+?
+java:S1172–"(Remove this unused method parameter "v".(æ¶åû
+d	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ù·×
+?
+java:S1068)")Remove this unused "mAuth" private field.(ªÐ”’

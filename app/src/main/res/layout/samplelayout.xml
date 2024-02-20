@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300sp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_print_area"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_gravity="top"
+            android:layout_margin="5dp"
+            android:background="@android:color/holo_purple"
+            android:gravity="top|center"
+            android:text="Hi, Im am a dummy text"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_print"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Print The Top Demo View \n(Pdf will be save in shared storage and after generation will open by pdf reader app)"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/bt_print_multi_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Print The Top Demo View In Multi Page\n(PDF will saved under custom folder path ''MyFolder/MyDemoTextMultiPage/'' and will open by pdf reader app with after generation)"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/bt_print_multi_page_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Print The Top Demo View In Multi Page With Dynamic Text (After generation it will be shown in sharing popup to share with other app)"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:id="@+id/bt_horizontal_scroll_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Print A Horizontal Scroll View\n(PDF will saved under custom folder path ''MyFolder/MyDemoList/'' and do nothing after PDF creation)"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:id="@+id/bt_demo_barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Print A Demo Barcode  \n(After generation, PDF will open by pdf reader app)"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/bt_print_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Print A Demo List \n( (After generation, PDF will open by pdf reader app)"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/bt_invoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Print A Demo Invoice \n (After generation, PDF will open by pdf reader app)"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+
+
+
+
+        <Button
+            android:id="@+id/bt_print_landscape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Print A Landscape PDF"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            tools:ignore="HardcodedText"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+</ScrollView>

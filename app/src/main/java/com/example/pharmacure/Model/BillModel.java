@@ -10,7 +10,8 @@ public class BillModel {
         return discperc;
     }
 
-    public void setDiscperc(String discperc) {
+    public void setDiscperc(String discperc)
+    {
         this.discperc = discperc;
     }
 

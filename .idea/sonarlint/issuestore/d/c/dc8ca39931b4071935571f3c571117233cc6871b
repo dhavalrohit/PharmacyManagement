@@ -1,0 +1,6 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è‹µÆ8äŠ¤®É1
+r
+java:S3008"URename this field "PAGE_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É®ˆÿ8Ý®¥®É1
+s
+java:S3008"VRename this field "PAGE_HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äœè™8Þ®¥®É1

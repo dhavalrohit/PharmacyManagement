@@ -1,30 +1,30 @@
 
-Œ
-java:S1319–"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(åÏ”£üÿÿÿÿ
-C
-java:S1604P"(Make this anonymous inner class a lambda(³ú­®şÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªìãÿúÿÿÿÿ
-w
-java:S1450-"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(Çòçöûÿÿÿÿ
-j
-java:S1450)"TRemove the "mAuth" field and declare it as a local variable in the relevant methods.(ªĞ”’
-Q
-java:S26966"6Make the enclosing method "static" or remove this set.(ŠĞûóøÿÿÿÿ
-T
-java:S18747"9Remove this use of "setHasOptionsMenu"; it is deprecated.(Ï™ñşÿÿÿÿ
-e
-java:S1874_"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(˜¯óıÿÿÿÿ
-K
-java:S1874g"5Remove this use of "getActionView"; it is deprecated.(À­ë¯
-W
-java:S1874i"ARemove this use of "setOnActionExpandListener"; it is deprecated.(‰Ç‡À
-Q	java:S125l"<This block of commented-out lines of code should be removed.(¦„ß®
-V	java:S125t"<This block of commented-out lines of code should be removed.(êôº¬øÿÿÿÿ
-V
-java:S1874z";Remove this use of "onCreateOptionsMenu"; it is deprecated.(½®¸ïúÿÿÿÿ
-—
-java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ßªŞ
-˜
-java:S1186²"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Ş‰
-?
-java:S1068)")Remove this unused "mAuth" private field.(ªĞ”’
+“
+java:S1319–"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(åÏ”£üÿÿÿÿ8ÊÉ–ìÇ1
+J
+java:S1604P"(Make this anonymous inner class a lambda(³ú­®şÿÿÿÿ8ÚÉ–ìÇ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªìãÿúÿÿÿÿ8éÉ–ìÇ1
+~
+java:S1450-"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(Çòçöûÿÿÿÿ8˜Í–ìÇ1
+q
+java:S1450)"TRemove the "mAuth" field and declare it as a local variable in the relevant methods.(ªĞ”’8£Í–ìÇ1
+X
+java:S26966"6Make the enclosing method "static" or remove this set.(ŠĞûóøÿÿÿÿ8äÍ–ìÇ1
+[
+java:S18747"9Remove this use of "setHasOptionsMenu"; it is deprecated.(Ï™ñşÿÿÿÿ8åÍ–ìÇ1
+l
+java:S1874_"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(˜¯óıÿÿÿÿ8›Î–ìÇ1
+R
+java:S1874g"5Remove this use of "getActionView"; it is deprecated.(À­ë¯8¤Î–ìÇ1
+^
+java:S1874i"ARemove this use of "setOnActionExpandListener"; it is deprecated.(‰Ç‡À8¥Î–ìÇ1
+X	java:S125l"<This block of commented-out lines of code should be removed.(¦„ß®8«Î–ìÇ1
+]	java:S125t"<This block of commented-out lines of code should be removed.(êôº¬øÿÿÿÿ8°Î–ìÇ1
+]
+java:S1874z";Remove this use of "onCreateOptionsMenu"; it is deprecated.(½®¸ïúÿÿÿÿ8²Î–ìÇ1
+
+java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ßªŞ8¾Î–ìÇ1
+Ÿ
+java:S1186²"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Ş‰8¿Î–ìÇ1
+F
+java:S1068)")Remove this unused "mAuth" private field.(ªĞ”’8ÚÏ–ìÇ1

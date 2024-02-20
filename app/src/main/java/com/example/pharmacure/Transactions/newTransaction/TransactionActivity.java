@@ -27,6 +27,7 @@ import android.widget.Toast;
 
 import com.example.pharmacure.Bill.salesBill.Bill_Activity;
 import com.example.pharmacure.Doctor.SearchAdapterDoctor;
+import com.example.pharmacure.MainActivity;
 import com.example.pharmacure.Model.BillModel;
 import com.example.pharmacure.Model.CustomerModel;
 import com.example.pharmacure.Model.DoctorModel;
@@ -106,8 +107,19 @@ public class TransactionActivity extends AppCompatActivity implements View.OnCli
 
     static double billtotalamount=0.0;
 
-    public static String generatedbillid="";
+    public  static String generatedbillid="";
+
+    public String getGeneratedbillid() {
+        return generatedbillid;
+    }
+
+    public void setGeneratedbillid(String generatedbillid) {
+        this.generatedbillid = generatedbillid;
+    }
+
     String docselected="";
+
+    Firebase_factory_Bill firebaseFactory;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -117,6 +129,8 @@ public class TransactionActivity extends AppCompatActivity implements View.OnCli
         setTitle("Transaction");
 
         getSupportActionBar().hide();
+
+
 
         date = (TextInputLayout) findViewById(R.id.dateLayout_trans_activity);
         patientname = (TextInputLayout) findViewById(R.id.ptLayout);
@@ -132,7 +146,14 @@ public class TransactionActivity extends AppCompatActivity implements View.OnCli
         epatientAge = (EditText) findViewById(R.id.ageText);
         due = (EditText) findViewById(R.id.amtdue);
 
-         generatedbillid=Firebase_factory_Bill.getBillID();
+        firebaseFactory=new Firebase_factory_Bill();
+
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        generatedbillid= MainActivity.billid;
 
         billIDtextview=findViewById(R.id.billIdText);
         billIDtextview.setText(generatedbillid);
@@ -158,11 +179,11 @@ public class TransactionActivity extends AppCompatActivity implements View.OnCli
         dbsummary = FirebaseDatabase.getInstance().getReference().child("Users").child(uid).child("Summary");
         dbdoctor= Firebase_factory.getdatabaseRef().child("Users").child(uid).child("Doctors");
 
-        dbinventory.keepSynced(true);
+       /* dbinventory.keepSynced(true);
         dbinvoice.keepSynced(true);
         dbcustomer.keepSynced(true);
         dbsummary.keepSynced(true);
-        dbdoctor.keepSynced(true);
+        dbdoctor.keepSynced(true);*/
 
         addbtn = (Button) findViewById(R.id.btnadd);
         savebtn = (Button) findViewById(R.id.savebtn);
@@ -332,6 +353,7 @@ public class TransactionActivity extends AppCompatActivity implements View.OnCli
 
 
 
+
             }
 
             @Override
@@ -440,6 +462,15 @@ public class TransactionActivity extends AppCompatActivity implements View.OnCli
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        generatedbillid=firebaseFactory.getBillID();
+        billIDtextview.setText(generatedbillid);
+    }
+
+
+
+    @Override
     public void onClick(View v) {
 
         final Calendar c = Calendar.getInstance();
@@ -464,7 +495,7 @@ public class TransactionActivity extends AppCompatActivity implements View.OnCli
 
     protected void addbtn() {
 
-        if (billlistmodel.size() < 8) {
+        if (billlistmodel.size() < 100) {
              String item =medicineadapter.getProductName();
              String mrp = medicineadapter.getMrp();
              String batch = medicineadapter.getBatch();
@@ -602,8 +633,6 @@ public class TransactionActivity extends AppCompatActivity implements View.OnCli
                     AlertDialog alert = alertDialogBuilder.create();
                     alert.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
                     alert.show();
-
-
 
 
                 }else {

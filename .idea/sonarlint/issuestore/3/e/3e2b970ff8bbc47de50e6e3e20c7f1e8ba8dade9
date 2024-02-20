@@ -1,0 +1,84 @@
+
+l
+java:S1192µ"PDefine a constant instead of duplicating this literal "Context is null" 3 times.(íòûüÿÿÿÿ
+K
+java:S1066”"/Merge this if statement with the enclosing one.(áµŒüÿÿÿÿ
+Q
+java:S1141ô"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141‘"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+z
+java:S11046"_Make postScriptThreshold a static final constant or non-public and provide accessors if needed.(Î¥«Úûÿÿÿÿ
+{
+java:S1104<"`Make a4HeightInPostScript a static final constant or non-public and provide accessors if needed.(¸µÔ üÿÿÿÿ
+u
+java:S1104="_Make a4WidthInPostScript a static final constant or non-public and provide accessors if needed.(õç€Í
+s
+java:S1104?"]Make AS_LIKE_XML_WIDTH a static final constant or non-public and provide accessors if needed.(öÏ­“
+t
+java:S1104?"^Make AS_LIKE_XML_HEIGHT a static final constant or non-public and provide accessors if needed.(öÏ­“
+T
+java:S14446"9Make this "public static postScriptThreshold" field final(Î¥«Úûÿÿÿÿ
+U
+java:S1444<":Make this "public static a4HeightInPostScript" field final(¸µÔ üÿÿÿÿ
+O
+java:S1444="9Make this "public static a4WidthInPostScript" field final(õç€Í
+M
+java:S1444?"7Make this "public static AS_LIKE_XML_WIDTH" field final(öÏ­“
+N
+java:S1444?"8Make this "public static AS_LIKE_XML_HEIGHT" field final(öÏ­“
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¯Æşÿÿÿÿ
+i
+java:S2095Ã"RUse try-with-resources or close this "ParcelFileDescriptor" in a "finally" clause.(‚¨¸Ú
+d
+java:S2095Ä"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÄÍÇ
+t	java:S1157"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(â¿×úÿÿÿÿ
+t	java:S1158"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿŒâ¹ùÿÿÿÿ
+n	java:S1159"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áŠìT
+o	java:S115:"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äõÔ¤
+o	java:S115;"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(öã±›
+r
+java:S3008?"\Rename this field "AS_LIKE_XML_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÏ­“
+s
+java:S3008?"]Rename this field "AS_LIKE_XML_HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÏ­“
+F
+java:S1659?"0Declare "AS_LIKE_XML_HEIGHT" on a separate line.(öÏ­“
+`
+java:S11247"EReorder the modifiers to comply with the Java Language Specification.(â¿×úÿÿÿÿ
+`
+java:S11248"EReorder the modifiers to comply with the Java Language Specification.(ÿŒâ¹ùÿÿÿÿ
+Z
+java:S11249"EReorder the modifiers to comply with the Java Language Specification.(áŠìT
+[
+java:S1124:"EReorder the modifiers to comply with the Java Language Specification.(äõÔ¤
+[
+java:S1124;"EReorder the modifiers to comply with the Java Language Specification.(öã±›
+i
+java:S3776è"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ñşá¯
+R
+java:S2696¼"6Make the enclosing method "static" or remove this set.(‘ĞÅ÷ÿÿÿÿÿ
+R
+java:S2696½"6Make the enclosing method "static" or remove this set.(ôæÕûùÿÿÿÿ
+h
+java:S3776À"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(ªõ·a
+U
+java:S1155Å">Use isEmpty() to check whether the collection is empty or not.(°×¯É
+R	java:S125Ó"<This block of commented-out lines of code should be removed.(Ø•ËĞ
+R
+java:S2696Û"6Make the enclosing method "static" or remove this set.(‘Øç¡ùÿÿÿÿ
+M
+java:S2696Ü"6Make the enclosing method "static" or remove this set.(²Õë
+<
+java:S1075ˆ"&Remove this hard-coded path-delimiter.(ìî´a
+=
+java:S1075Š"&Remove this hard-coded path-delimiter.(¸ÔÍ‰
+=
+java:S1075Œ"&Remove this hard-coded path-delimiter.(ÑÄ
+=
+java:S1075Œ"&Remove this hard-coded path-delimiter.(ÑÄ
+i
+java:S3776£"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(£ÄŞò
+˜
+java:S1186È"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“ú î
+Ü
+java:S6541À"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 88 to 64, Complexity from 17 to 14, Nesting Level from 6 to 2, Number of Variables from 12 to 6.(ªõ·a
